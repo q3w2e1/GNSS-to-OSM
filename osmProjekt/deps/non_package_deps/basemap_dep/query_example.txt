@@ -1,0 +1,33 @@
+<osm-script output="json" timeout="25">
+  <!-- gather results -->
+  <union>
+     <query type="way">
+      <has-kv k="highway"/>
+      <has-kv k="highway" modv="not" v="footway"/>
+      <has-kv k="highway" modv="not" v="pedestrian"/>
+      <has-kv k="highway" modv="not" v="steps"/>
+      <has-kv k="highway" modv="not" v="path"/>
+      <has-kv k="highway" modv="not" v="track"/>
+      <has-kv k="highway" modv="not" v="cycleway"/>
+      <has-kv k="highway" modv="not" v="raceway"/>
+      <has-kv k="highway" modv="not" v="bridleway"/>
+      <has-kv k="highway" modv="not" v="bus_stop"/>
+      <has-kv k="highway" modv="not" v="construction"/>
+      <has-kv k="highway" modv="not" v="corridor"/>
+      <has-kv k="highway" modv="not" v="elevator"/>
+      <has-kv k="highway" modv="not" v="living_street"/>
+      <has-kv k="highway" modv="not" v="platform"/>
+      <has-kv k="highway" modv="not" v="proposed"/>
+      <has-kv k="highway" modv="not" v="service"/>
+      <has-kv k="highway" modv="not" v="toll_gantry"/>
+      <has-kv k="highway" modv="not" v="traffic_island"/>
+      <has-kv k="highway" modv="not" v="virtual"/>
+      <has-kv k="highway" modv="not" v="yes"/>
+      <bbox-query {{bbox}}/>
+    </query>
+  </union>
+  <!-- print results -->
+  <print mode="meta"/>
+  <recurse type="down"/>
+  <print mode="meta" order="quadtile"/>
+</osm-script>

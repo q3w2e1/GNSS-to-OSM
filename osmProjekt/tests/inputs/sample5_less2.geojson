@@ -1,0 +1,8 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "features": [
+        {"type": "Feature",
+            "properties": {"@uid": 9385466},
+            "geometry": {"coordinates":
+                []}}]}
