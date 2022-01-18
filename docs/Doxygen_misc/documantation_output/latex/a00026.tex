@@ -1,0 +1,34 @@
+\hypertarget{a00026}{}\doxysection{C\+:/\+Users/\+Jaroslav Pizur/\+Desktop/osm\+Proj\+Loc\+R/osm-\/\+Projekt/osm\+Projekt/deps/functions/refactoring/refactor\+\_\+functions.py File Reference}
+\label{a00026}\index{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/refactoring/refactor\_functions.py@{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/refactoring/refactor\_functions.py}}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{a00052}{refactor\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em Functions created with the goal to refactor the code, make it more readable and understandable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00052_a977396255bdd54f0db703bed3a90de5f}{json\+\_\+file\+\_\+dumper}} (variable\+\_\+name, filepath)
+\begin{DoxyCompactList}\small\item\em Function takes the name of a variable that is needed to be saved and saves it to the filepath location. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a2effc8cf68923de8820e3a87e25ee01e}{json\+\_\+file\+\_\+loader}} (filepath)
+\begin{DoxyCompactList}\small\item\em Function looks for the file located on given filepath and returns the found data. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a2296f95fbb8cbf9b428198b2376a9406}{load\+\_\+input\+\_\+file}} (input\+\_\+file\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Function reads the input\+\_\+file\+\_\+path as csv, searching for latitudes and longitudes, zips them together, gets rid of Na\+Ns and returns coordinates. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ac7b5b09e8c2d500684fd3b116af4c0e2}{load\+\_\+dependencies}} ()
+\begin{DoxyCompactList}\small\item\em Purpose of this function is to load basemap dependencies. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a3a850900db5d404336c9544321ae5a6b}{get\+\_\+input\+\_\+crossroad\+\_\+representation}} (coords\+\_\+input, nodes\+\_\+map\+\_\+crossroad, basemap\+\_\+crossroads)
+\begin{DoxyCompactList}\small\item\em This functions\textquotesingle{} purpose is to provide crossroad representation in nodes format as well as O\+SM format. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_aa59d1ef599281d13747f7662907aa3e6}{get\+\_\+input\+\_\+fine\+\_\+representation}} (basemap\+\_\+without\+\_\+points, nodes\+\_\+input\+\_\+crossroad, coords\+\_\+input)
+\begin{DoxyCompactList}\small\item\em This functions\textquotesingle{} purpose is to provide fine representation in nodes format as well as O\+SM format. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a0581525bc2a89c9bc5a967d031005bdb}{track\+\_\+identification\+\_\+dependencies}} (coords\+\_\+input, nodes\+\_\+input\+\_\+fine)
+\begin{DoxyCompactList}\small\item\em Here all the data previously acquisited are restructured to provide what will be needed for the track finding algorithms. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a5e44f079aa8a1264fe0976b8b28a6397}{save\+\_\+files}} (files\+\_\+dict, parent\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Saves all files in the dictionary to a folder given by the input argument parent\+\_\+path. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a36c93c7c79b608f1b0d63e5dae972bef}{delete\+\_\+files}} (files\+\_\+dict, parent\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Opposite funtionality when compared to save\+\_\+files function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ac062df9ca666524ffc3362fb397f93c0}{get\+\_\+basemap\+\_\+track}} (basemap\+\_\+input\+\_\+fine, nodes\+\_\+track)
+\begin{DoxyCompactList}\small\item\em Returns an O\+SM format file which contains only nodes that are part of nodes\+\_\+track. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a5809b1c15b1c5c775dc9580410d296f3}{get\+\_\+basemap\+\_\+tracks}} (basemap\+\_\+in, nodes\+\_\+1, nodes\+\_\+2)
+\begin{DoxyCompactList}\small\item\em Returns get\+\_\+basemap\+\_\+track output for 2 input node tracks. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ad2e421f6713a55d1f482f4e04ce2ea0c}{verification\+\_\+nodes}} (script\+\_\+output\+\_\+nodes, nodes\+\_\+map\+\_\+crossroad, basemap\+\_\+crossroads, basemap\+\_\+without\+\_\+points)
+\begin{DoxyCompactList}\small\item\em Function tests the trackfinding method. \end{DoxyCompactList}\end{DoxyCompactItemize}

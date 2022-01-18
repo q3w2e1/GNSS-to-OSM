@@ -1,0 +1,98 @@
+\hypertarget{a00117}{}\doxysection{postx\+\_\+functions Namespace Reference}
+\label{a00117}\index{postx\_functions@{postx\_functions}}
+
+
+Serves to solve problems after solutions connected to the crossroad representation.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00117_a94d17a474fc4ff97591c8341e98b0791}{extractnodes}} (basedata)
+\begin{DoxyCompactList}\small\item\em Function takes all the nodes from basedata and appends them into a list it returns. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00117_aae6e83d8f15d0df29f17c27beb57e3e4}{get\+\_\+each\+\_\+closest}} (coordinates, fine\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em For each coordinate go through all fine\+\_\+nodes and find the closest one. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00117_a1776c501843a596fb18875fe81e88e6c}{get\+\_\+list\+\_\+complement}} (alist, blist)
+\begin{DoxyCompactList}\small\item\em What the functions does is\+: xlist = alist -\/ blist. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00117_a65b0ab4608106120a59ff7635049911e}{feature\+\_\+deletion\+\_\+matchwise}} (adata, bdata, matchfactor)
+\begin{DoxyCompactList}\small\item\em Compare these two maps (adata, bdata). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Serves to solve problems after solutions connected to the crossroad representation. 
+
+These funtions are aimed to help get more refined (fine) representation of the input data in normalised state. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00117_a94d17a474fc4ff97591c8341e98b0791}\label{a00117_a94d17a474fc4ff97591c8341e98b0791}} 
+\index{postx\_functions@{postx\_functions}!extractnodes@{extractnodes}}
+\index{extractnodes@{extractnodes}!postx\_functions@{postx\_functions}}
+\doxysubsubsection{\texorpdfstring{extractnodes()}{extractnodes()}}
+{\footnotesize\ttfamily def postx\+\_\+functions.\+extractnodes (\begin{DoxyParamCaption}\item[{}]{basedata }\end{DoxyParamCaption})}
+
+
+
+Function takes all the nodes from basedata and appends them into a list it returns. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em basedata} & type dictionary and has to satisfy used case-\/specific geojson format (O\+SM) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00117_a65b0ab4608106120a59ff7635049911e}\label{a00117_a65b0ab4608106120a59ff7635049911e}} 
+\index{postx\_functions@{postx\_functions}!feature\_deletion\_matchwise@{feature\_deletion\_matchwise}}
+\index{feature\_deletion\_matchwise@{feature\_deletion\_matchwise}!postx\_functions@{postx\_functions}}
+\doxysubsubsection{\texorpdfstring{feature\_deletion\_matchwise()}{feature\_deletion\_matchwise()}}
+{\footnotesize\ttfamily def postx\+\_\+functions.\+feature\+\_\+deletion\+\_\+matchwise (\begin{DoxyParamCaption}\item[{}]{adata,  }\item[{}]{bdata,  }\item[{}]{matchfactor }\end{DoxyParamCaption})}
+
+
+
+Compare these two maps (adata, bdata). 
+
+Each feature with the correspondent one. And if the adata does not contain more than \char`\"{}matchfactor\char`\"{} percent of nodes it should (bdata reference), then delete the whole feature (all coordinates).
+
+\begin{DoxyVerb}adata, bdata -- geojson based format OSM
+\end{DoxyVerb}
+ 
+\begin{DoxyParams}{Parameters}
+{\em matchfactor} & (0-\/100) in percent -\/ for number of nodes in basemaps comparison. Bigger number deletes less features. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00117_aae6e83d8f15d0df29f17c27beb57e3e4}\label{a00117_aae6e83d8f15d0df29f17c27beb57e3e4}} 
+\index{postx\_functions@{postx\_functions}!get\_each\_closest@{get\_each\_closest}}
+\index{get\_each\_closest@{get\_each\_closest}!postx\_functions@{postx\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_each\_closest()}{get\_each\_closest()}}
+{\footnotesize\ttfamily def postx\+\_\+functions.\+get\+\_\+each\+\_\+closest (\begin{DoxyParamCaption}\item[{}]{coordinates,  }\item[{}]{fine\+\_\+nodes }\end{DoxyParamCaption})}
+
+
+
+For each coordinate go through all fine\+\_\+nodes and find the closest one. 
+
+The closest one will be stored in winnode -\/ list which will be returned.
+
+
+\begin{DoxyParams}{Parameters}
+{\em coordinates} & list of input data nodes 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{                      [[lon1,lat1],[lon2,lat2],...]}
+\DoxyCodeLine{@param     fine\_nodes  nodes obtained \textcolor{keyword}{from} json formerData -\/ fine}
+\DoxyCodeLine{@param                          representation}
+\end{DoxyCode}
+\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00117_a1776c501843a596fb18875fe81e88e6c}\label{a00117_a1776c501843a596fb18875fe81e88e6c}} 
+\index{postx\_functions@{postx\_functions}!get\_list\_complement@{get\_list\_complement}}
+\index{get\_list\_complement@{get\_list\_complement}!postx\_functions@{postx\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_list\_complement()}{get\_list\_complement()}}
+{\footnotesize\ttfamily def postx\+\_\+functions.\+get\+\_\+list\+\_\+complement (\begin{DoxyParamCaption}\item[{}]{alist,  }\item[{}]{blist }\end{DoxyParamCaption})}
+
+
+
+What the functions does is\+: xlist = alist -\/ blist. 
+
+The return value is equal to the alist while not containing any item equal to any item in the blist list.
+
+\begin{DoxyVerb}alist, blist -- both list of nodes [[lon1,lat1],[lon2,lat2],...]
+\end{DoxyVerb}
+ 

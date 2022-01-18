@@ -1,0 +1,38 @@
+\hypertarget{a00049}{}\doxysection{Na\+Nremover Namespace Reference}
+\label{a00049}\index{NaNremover@{NaNremover}}
+
+
+Used to remove Na\+Ns from input data.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00049_ae7d27ee4bb8244a6ed7e2ef82ed6b501}{nan\+\_\+remove}} (urblat, urblon)
+\begin{DoxyCompactList}\small\item\em Function removes latitude or longitude from input list while it also deletes the item on respective position of the other list on the position NaN is situated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Used to remove Na\+Ns from input data. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00049_ae7d27ee4bb8244a6ed7e2ef82ed6b501}\label{a00049_ae7d27ee4bb8244a6ed7e2ef82ed6b501}} 
+\index{NaNremover@{NaNremover}!nan\_remove@{nan\_remove}}
+\index{nan\_remove@{nan\_remove}!NaNremover@{NaNremover}}
+\doxysubsubsection{\texorpdfstring{nan\_remove()}{nan\_remove()}}
+{\footnotesize\ttfamily def Na\+Nremover.\+nan\+\_\+remove (\begin{DoxyParamCaption}\item[{}]{urblat,  }\item[{}]{urblon }\end{DoxyParamCaption})}
+
+
+
+Function removes latitude or longitude from input list while it also deletes the item on respective position of the other list on the position NaN is situated. 
+
+{\bfseries{Examples}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Input}
+\DoxyCodeLine{    urblat = [nan, 2, 3, 4]}
+\DoxyCodeLine{    urblon = [5, 6, nan, 8]}
+\DoxyCodeLine{Output}
+\DoxyCodeLine{    [2, 4]}
+\DoxyCodeLine{    [6, 8]}
+\end{DoxyCode}
+ 

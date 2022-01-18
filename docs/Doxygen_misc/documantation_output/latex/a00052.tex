@@ -1,0 +1,220 @@
+\hypertarget{a00052}{}\doxysection{refactor\+\_\+functions Namespace Reference}
+\label{a00052}\index{refactor\_functions@{refactor\_functions}}
+
+
+Functions created with the goal to refactor the code, make it more readable and understandable.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00052_a977396255bdd54f0db703bed3a90de5f}{json\+\_\+file\+\_\+dumper}} (variable\+\_\+name, filepath)
+\begin{DoxyCompactList}\small\item\em Function takes the name of a variable that is needed to be saved and saves it to the filepath location. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a2effc8cf68923de8820e3a87e25ee01e}{json\+\_\+file\+\_\+loader}} (filepath)
+\begin{DoxyCompactList}\small\item\em Function looks for the file located on given filepath and returns the found data. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a2296f95fbb8cbf9b428198b2376a9406}{load\+\_\+input\+\_\+file}} (input\+\_\+file\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Function reads the input\+\_\+file\+\_\+path as csv, searching for latitudes and longitudes, zips them together, gets rid of Na\+Ns and returns coordinates. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ac7b5b09e8c2d500684fd3b116af4c0e2}{load\+\_\+dependencies}} ()
+\begin{DoxyCompactList}\small\item\em Purpose of this function is to load basemap dependencies. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a3a850900db5d404336c9544321ae5a6b}{get\+\_\+input\+\_\+crossroad\+\_\+representation}} (coords\+\_\+input, nodes\+\_\+map\+\_\+crossroad, basemap\+\_\+crossroads)
+\begin{DoxyCompactList}\small\item\em This functions\textquotesingle{} purpose is to provide crossroad representation in nodes format as well as O\+SM format. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_aa59d1ef599281d13747f7662907aa3e6}{get\+\_\+input\+\_\+fine\+\_\+representation}} (basemap\+\_\+without\+\_\+points, nodes\+\_\+input\+\_\+crossroad, coords\+\_\+input)
+\begin{DoxyCompactList}\small\item\em This functions\textquotesingle{} purpose is to provide fine representation in nodes format as well as O\+SM format. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a0581525bc2a89c9bc5a967d031005bdb}{track\+\_\+identification\+\_\+dependencies}} (coords\+\_\+input, nodes\+\_\+input\+\_\+fine)
+\begin{DoxyCompactList}\small\item\em Here all the data previously acquisited are restructured to provide what will be needed for the track finding algorithms. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a5e44f079aa8a1264fe0976b8b28a6397}{save\+\_\+files}} (files\+\_\+dict, parent\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Saves all files in the dictionary to a folder given by the input argument parent\+\_\+path. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a36c93c7c79b608f1b0d63e5dae972bef}{delete\+\_\+files}} (files\+\_\+dict, parent\+\_\+path)
+\begin{DoxyCompactList}\small\item\em Opposite funtionality when compared to save\+\_\+files function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ac062df9ca666524ffc3362fb397f93c0}{get\+\_\+basemap\+\_\+track}} (basemap\+\_\+input\+\_\+fine, nodes\+\_\+track)
+\begin{DoxyCompactList}\small\item\em Returns an O\+SM format file which contains only nodes that are part of nodes\+\_\+track. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_a5809b1c15b1c5c775dc9580410d296f3}{get\+\_\+basemap\+\_\+tracks}} (basemap\+\_\+in, nodes\+\_\+1, nodes\+\_\+2)
+\begin{DoxyCompactList}\small\item\em Returns get\+\_\+basemap\+\_\+track output for 2 input node tracks. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00052_ad2e421f6713a55d1f482f4e04ce2ea0c}{verification\+\_\+nodes}} (script\+\_\+output\+\_\+nodes, nodes\+\_\+map\+\_\+crossroad, basemap\+\_\+crossroads, basemap\+\_\+without\+\_\+points)
+\begin{DoxyCompactList}\small\item\em Function tests the trackfinding method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions created with the goal to refactor the code, make it more readable and understandable. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00052_a36c93c7c79b608f1b0d63e5dae972bef}\label{a00052_a36c93c7c79b608f1b0d63e5dae972bef}} 
+\index{refactor\_functions@{refactor\_functions}!delete\_files@{delete\_files}}
+\index{delete\_files@{delete\_files}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{delete\_files()}{delete\_files()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+delete\+\_\+files (\begin{DoxyParamCaption}\item[{}]{files\+\_\+dict,  }\item[{}]{parent\+\_\+path }\end{DoxyParamCaption})}
+
+
+
+Opposite funtionality when compared to save\+\_\+files function. 
+
+Function deletes all the files given in the dictionary keys from the given parent folder. \mbox{\Hypertarget{a00052_ac062df9ca666524ffc3362fb397f93c0}\label{a00052_ac062df9ca666524ffc3362fb397f93c0}} 
+\index{refactor\_functions@{refactor\_functions}!get\_basemap\_track@{get\_basemap\_track}}
+\index{get\_basemap\_track@{get\_basemap\_track}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_basemap\_track()}{get\_basemap\_track()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+get\+\_\+basemap\+\_\+track (\begin{DoxyParamCaption}\item[{}]{basemap\+\_\+input\+\_\+fine,  }\item[{}]{nodes\+\_\+track }\end{DoxyParamCaption})}
+
+
+
+Returns an O\+SM format file which contains only nodes that are part of nodes\+\_\+track. 
+
+\mbox{\Hypertarget{a00052_a5809b1c15b1c5c775dc9580410d296f3}\label{a00052_a5809b1c15b1c5c775dc9580410d296f3}} 
+\index{refactor\_functions@{refactor\_functions}!get\_basemap\_tracks@{get\_basemap\_tracks}}
+\index{get\_basemap\_tracks@{get\_basemap\_tracks}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_basemap\_tracks()}{get\_basemap\_tracks()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+get\+\_\+basemap\+\_\+tracks (\begin{DoxyParamCaption}\item[{}]{basemap\+\_\+in,  }\item[{}]{nodes\+\_\+1,  }\item[{}]{nodes\+\_\+2 }\end{DoxyParamCaption})}
+
+
+
+Returns get\+\_\+basemap\+\_\+track output for 2 input node tracks. 
+
+\mbox{\Hypertarget{a00052_a3a850900db5d404336c9544321ae5a6b}\label{a00052_a3a850900db5d404336c9544321ae5a6b}} 
+\index{refactor\_functions@{refactor\_functions}!get\_input\_crossroad\_representation@{get\_input\_crossroad\_representation}}
+\index{get\_input\_crossroad\_representation@{get\_input\_crossroad\_representation}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_input\_crossroad\_representation()}{get\_input\_crossroad\_representation()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+get\+\_\+input\+\_\+crossroad\+\_\+representation (\begin{DoxyParamCaption}\item[{}]{coords\+\_\+input,  }\item[{}]{nodes\+\_\+map\+\_\+crossroad,  }\item[{}]{basemap\+\_\+crossroads }\end{DoxyParamCaption})}
+
+
+
+This functions\textquotesingle{} purpose is to provide crossroad representation in nodes format as well as O\+SM format. 
+
+All input represented, so the input G\+N\+SS data are represented in crossroads this way.
+
+
+\begin{DoxyParams}{Parameters}
+{\em coords\+\_\+input} & G\+N\+SS data input in coordinate form (zipped latitudes and longitudes) \\
+\hline
+{\em nodes\+\_\+map\+\_\+crossroad} & map of crossroad in nodes format \\
+\hline
+{\em basemap\+\_\+crossroads} & map of crossroads in O\+SM format (geojson)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dictionary with both expected results; node and O\+SM form of input in crossroad representation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{a00052_aa59d1ef599281d13747f7662907aa3e6}\label{a00052_aa59d1ef599281d13747f7662907aa3e6}} 
+\index{refactor\_functions@{refactor\_functions}!get\_input\_fine\_representation@{get\_input\_fine\_representation}}
+\index{get\_input\_fine\_representation@{get\_input\_fine\_representation}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_input\_fine\_representation()}{get\_input\_fine\_representation()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+get\+\_\+input\+\_\+fine\+\_\+representation (\begin{DoxyParamCaption}\item[{}]{basemap\+\_\+without\+\_\+points,  }\item[{}]{nodes\+\_\+input\+\_\+crossroad,  }\item[{}]{coords\+\_\+input }\end{DoxyParamCaption})}
+
+
+
+This functions\textquotesingle{} purpose is to provide fine representation in nodes format as well as O\+SM format. 
+
+All input represented. The input and result is simmilar to get\+\_\+input\+\_\+crossroad\+\_\+representation function. The only difference is that the actual body parforms different tasks and this function needs an output from the previously mentioned function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em basemap\+\_\+without\+\_\+points} & former basemap, filtered only from not needed features \\
+\hline
+{\em nodes\+\_\+input\+\_\+crossroad} & input in nodes form and represented in crossroads \\
+\hline
+{\em coords\+\_\+input} & G\+N\+SS data input in coordinate form (zipped latitudes and longitudes) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dictionary with both expected results; node and O\+SM form of input in fine representation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{a00052_a977396255bdd54f0db703bed3a90de5f}\label{a00052_a977396255bdd54f0db703bed3a90de5f}} 
+\index{refactor\_functions@{refactor\_functions}!json\_file\_dumper@{json\_file\_dumper}}
+\index{json\_file\_dumper@{json\_file\_dumper}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{json\_file\_dumper()}{json\_file\_dumper()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+json\+\_\+file\+\_\+dumper (\begin{DoxyParamCaption}\item[{}]{variable\+\_\+name,  }\item[{}]{filepath }\end{DoxyParamCaption})}
+
+
+
+Function takes the name of a variable that is needed to be saved and saves it to the filepath location. 
+
+\mbox{\Hypertarget{a00052_a2effc8cf68923de8820e3a87e25ee01e}\label{a00052_a2effc8cf68923de8820e3a87e25ee01e}} 
+\index{refactor\_functions@{refactor\_functions}!json\_file\_loader@{json\_file\_loader}}
+\index{json\_file\_loader@{json\_file\_loader}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{json\_file\_loader()}{json\_file\_loader()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+json\+\_\+file\+\_\+loader (\begin{DoxyParamCaption}\item[{}]{filepath }\end{DoxyParamCaption})}
+
+
+
+Function looks for the file located on given filepath and returns the found data. 
+
+\mbox{\Hypertarget{a00052_ac7b5b09e8c2d500684fd3b116af4c0e2}\label{a00052_ac7b5b09e8c2d500684fd3b116af4c0e2}} 
+\index{refactor\_functions@{refactor\_functions}!load\_dependencies@{load\_dependencies}}
+\index{load\_dependencies@{load\_dependencies}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{load\_dependencies()}{load\_dependencies()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+load\+\_\+dependencies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Purpose of this function is to load basemap dependencies. 
+
+Basemap creator is part of the process that is needed, but is not obligatory to run every time. So the process is separated, but the outputs are still neded, o they are loaded this way. \mbox{\Hypertarget{a00052_a2296f95fbb8cbf9b428198b2376a9406}\label{a00052_a2296f95fbb8cbf9b428198b2376a9406}} 
+\index{refactor\_functions@{refactor\_functions}!load\_input\_file@{load\_input\_file}}
+\index{load\_input\_file@{load\_input\_file}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{load\_input\_file()}{load\_input\_file()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+load\+\_\+input\+\_\+file (\begin{DoxyParamCaption}\item[{}]{input\+\_\+file\+\_\+path }\end{DoxyParamCaption})}
+
+
+
+Function reads the input\+\_\+file\+\_\+path as csv, searching for latitudes and longitudes, zips them together, gets rid of Na\+Ns and returns coordinates. 
+
+\mbox{\Hypertarget{a00052_a5e44f079aa8a1264fe0976b8b28a6397}\label{a00052_a5e44f079aa8a1264fe0976b8b28a6397}} 
+\index{refactor\_functions@{refactor\_functions}!save\_files@{save\_files}}
+\index{save\_files@{save\_files}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{save\_files()}{save\_files()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+save\+\_\+files (\begin{DoxyParamCaption}\item[{}]{files\+\_\+dict,  }\item[{}]{parent\+\_\+path }\end{DoxyParamCaption})}
+
+
+
+Saves all files in the dictionary to a folder given by the input argument parent\+\_\+path. 
+
+Names of the newly saved files will be given by the key value they have in the dictionary. \mbox{\Hypertarget{a00052_a0581525bc2a89c9bc5a967d031005bdb}\label{a00052_a0581525bc2a89c9bc5a967d031005bdb}} 
+\index{refactor\_functions@{refactor\_functions}!track\_identification\_dependencies@{track\_identification\_dependencies}}
+\index{track\_identification\_dependencies@{track\_identification\_dependencies}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{track\_identification\_dependencies()}{track\_identification\_dependencies()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+track\+\_\+identification\+\_\+dependencies (\begin{DoxyParamCaption}\item[{}]{coords\+\_\+input,  }\item[{}]{nodes\+\_\+input\+\_\+fine }\end{DoxyParamCaption})}
+
+
+
+Here all the data previously acquisited are restructured to provide what will be needed for the track finding algorithms. 
+
+At this point the successtion is needed to identify bus lines. Data filtering occurs in a form of running get\+\_\+nodes\+\_\+duplicates function which will help to detect crucial nodes. Then the repetitions are deleted and resulting sequence is prepared.
+
+
+\begin{DoxyParams}{Parameters}
+{\em coords\+\_\+input} & G\+N\+SS data input in coordinate form (zipped latitudes and longitudes) \\
+\hline
+{\em nodes\+\_\+input\+\_\+fine} & serves as a basemap for get\+\_\+nodes\+\_\+duplicates algorithm \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+dictionary with three crucial ouputs;
+\end{DoxyReturn}
+{\itshape tupled\+\_\+nodes\+\_\+input\+\_\+fine\+\_\+succession} which is the succession expressed in tuples
+
+{\itshape nodes\+\_\+minimum} is the input parameter for trackfinding algorithms, it took the input expected seconds that the found bus line should have and trasfered it into nodes; so the track finding algorithm works every time with nodes
+
+{\itshape nodes\+\_\+maximum} the same as nodes\+\_\+minimum, but espressing the upper boundary \mbox{\Hypertarget{a00052_ad2e421f6713a55d1f482f4e04ce2ea0c}\label{a00052_ad2e421f6713a55d1f482f4e04ce2ea0c}} 
+\index{refactor\_functions@{refactor\_functions}!verification\_nodes@{verification\_nodes}}
+\index{verification\_nodes@{verification\_nodes}!refactor\_functions@{refactor\_functions}}
+\doxysubsubsection{\texorpdfstring{verification\_nodes()}{verification\_nodes()}}
+{\footnotesize\ttfamily def refactor\+\_\+functions.\+verification\+\_\+nodes (\begin{DoxyParamCaption}\item[{}]{script\+\_\+output\+\_\+nodes,  }\item[{}]{nodes\+\_\+map\+\_\+crossroad,  }\item[{}]{basemap\+\_\+crossroads,  }\item[{}]{basemap\+\_\+without\+\_\+points }\end{DoxyParamCaption})}
+
+
+
+Function tests the trackfinding method. 
+
+c.\+I\+N\+P\+U\+T\+\_\+\+V\+E\+R\+IF file in the body of this function represents the input trajectory of a sole bus line. It is normalized and got rid of duplicates. Then there is a bus line found by our algorithm and trackfinding method. There is an intersection found and is compared with the total number of nodes either in the normalized input or our found track. It is always compared the the bigger number to always get the worst number possible so it is possible to test the quality appropriately.
+
+
+\begin{DoxyParams}{Parameters}
+{\em script\+\_\+output\+\_\+nodes} & bus line identified by the algorithm \\
+\hline
+{\em nodes\+\_\+map\+\_\+crossroad} & nodes of the whole basemap \\
+\hline
+{\em basemap\+\_\+crossroads} & O\+SM format containing only crossroads \\
+\hline
+{\em basemap\+\_\+without\+\_\+points} & O\+SM format basemap fine representation\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ratio in the range 0-\/100 to express the quality of the trackfinding methods and approaches 
+\end{DoxyReturn}

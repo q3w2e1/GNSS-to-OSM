@@ -1,0 +1,188 @@
+\hypertarget{a00047}{}\doxysection{C\+VT Namespace Reference}
+\label{a00047}\index{CVT@{CVT}}
+
+
+Functions for visualisation handling.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00047_aebab228cbbac60a40ed785a68feadc6f}{create\+\_\+mapbase}} (set=\textquotesingle{}german1\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Creates folium map base for the output .html file. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ad20184989e6bbbee433b2563a3c15036}{get\+\_\+separate\+\_\+coords}} (tlist)
+\begin{DoxyCompactList}\small\item\em Returns separate lists for latitudes and longitudes with zipped coordinates as an input. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a659e86756634406464d342eff254b902}{add\+\_\+fg\+\_\+direction}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns a feature group (fg) that provides visualisation of tlist while highlighting the direction. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ad7a589090d27261a7505378c60885c70}{add\+\_\+fg\+\_\+\+O\+SM}} (tlist, geojson\+\_\+file, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a48808ff1f3184bc79fad2b5c45282d38}{add\+\_\+fg\+\_\+\+O\+S\+M\+\_\+clean}} (geojson\+\_\+file, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ace1784fc5bb4012b5bf35ae421ec9147}{fg\+\_\+add\+\_\+continuous}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the continuous representation of the tlist data using Polyline. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a83112ca7c897953c949d66f3dfeb928c}{fg\+\_\+add\+\_\+basic}} (tlist, fg\+\_\+name, wanted\+\_\+color, wanted\+\_\+radius=1)
+\begin{DoxyCompactList}\small\item\em This func returns basic customizable feature group (fg) for the visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a199fd2e9a4cda9cf4b65c124db5a58c2}{fg\+\_\+add\+\_\+succession}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) for the visualisation that enhances the progression of a track by enlarging points aggregated as the track progressed. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a7d2156c04c13100d9e536dfe77e30392}{close\+\_\+mapbase}} (name, fmapbase, fglist)
+\begin{DoxyCompactList}\small\item\em All the feature groups are now added to the created fmapbase. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a89f00c370310d5cff64370a9f7531794}{normalisation\+\_\+test\+\_\+vis}} (real\+\_\+input, normalised\+\_\+crossroads, normalised\+\_\+fine, vis\+\_\+name, nodes\+\_\+map\+\_\+all)
+\begin{DoxyCompactList}\small\item\em Rather case specific function to perform visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a2af907c548fdc1cf902ccfc838784e00}{visualisation}} (visdict)
+\begin{DoxyCompactList}\small\item\em Rather case specific function to perform visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a0b64249267e93f3b64d9b65458aae8cd}{run}} ()
+\begin{DoxyCompactList}\small\item\em Testfile to test any of the functions above with prepared data in .p files. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions for visualisation handling. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00047_a659e86756634406464d342eff254b902}\label{a00047_a659e86756634406464d342eff254b902}} 
+\index{CVT@{CVT}!add\_fg\_direction@{add\_fg\_direction}}
+\index{add\_fg\_direction@{add\_fg\_direction}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{add\_fg\_direction()}{add\_fg\_direction()}}
+{\footnotesize\ttfamily def C\+V\+T.\+add\+\_\+fg\+\_\+direction (\begin{DoxyParamCaption}\item[{}]{tlist,  }\item[{}]{fg\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+This func returns a feature group (fg) that provides visualisation of tlist while highlighting the direction. 
+
+It is done by adding markers for Start an Stop as well as creating a color gradient for the coordinates in tlist. \mbox{\Hypertarget{a00047_ad7a589090d27261a7505378c60885c70}\label{a00047_ad7a589090d27261a7505378c60885c70}} 
+\index{CVT@{CVT}!add\_fg\_OSM@{add\_fg\_OSM}}
+\index{add\_fg\_OSM@{add\_fg\_OSM}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{add\_fg\_OSM()}{add\_fg\_OSM()}}
+{\footnotesize\ttfamily def C\+V\+T.\+add\+\_\+fg\+\_\+\+O\+SM (\begin{DoxyParamCaption}\item[{}]{tlist,  }\item[{}]{geojson\+\_\+file,  }\item[{}]{fg\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. 
+
+Under this O\+SM layer there is continuous node layer printed as a reference of what the result is in the given node representation occurred in tlist.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tlist} & list of nodes that will be visualized under the O\+SM representation in continuous form \\
+\hline
+{\em geojson\+\_\+file} & main file of which data will be visualized \\
+\hline
+{\em fg\+\_\+name} & name representing this layer, will be used in the html visualisation to toggle viewing options \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00047_a48808ff1f3184bc79fad2b5c45282d38}\label{a00047_a48808ff1f3184bc79fad2b5c45282d38}} 
+\index{CVT@{CVT}!add\_fg\_OSM\_clean@{add\_fg\_OSM\_clean}}
+\index{add\_fg\_OSM\_clean@{add\_fg\_OSM\_clean}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{add\_fg\_OSM\_clean()}{add\_fg\_OSM\_clean()}}
+{\footnotesize\ttfamily def C\+V\+T.\+add\+\_\+fg\+\_\+\+O\+S\+M\+\_\+clean (\begin{DoxyParamCaption}\item[{}]{geojson\+\_\+file,  }\item[{}]{fg\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. 
+
+\mbox{\Hypertarget{a00047_a7d2156c04c13100d9e536dfe77e30392}\label{a00047_a7d2156c04c13100d9e536dfe77e30392}} 
+\index{CVT@{CVT}!close\_mapbase@{close\_mapbase}}
+\index{close\_mapbase@{close\_mapbase}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{close\_mapbase()}{close\_mapbase()}}
+{\footnotesize\ttfamily def C\+V\+T.\+close\+\_\+mapbase (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{fmapbase,  }\item[{}]{fglist }\end{DoxyParamCaption})}
+
+
+
+All the feature groups are now added to the created fmapbase. 
+
+Here the map can be altered to have the toggle option accompanying Layer\+Control, Lat\+Lng\+Popup option to show coordinates at any place, option to add tile style etc. \mbox{\Hypertarget{a00047_aebab228cbbac60a40ed785a68feadc6f}\label{a00047_aebab228cbbac60a40ed785a68feadc6f}} 
+\index{CVT@{CVT}!create\_mapbase@{create\_mapbase}}
+\index{create\_mapbase@{create\_mapbase}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{create\_mapbase()}{create\_mapbase()}}
+{\footnotesize\ttfamily def C\+V\+T.\+create\+\_\+mapbase (\begin{DoxyParamCaption}\item[{}]{set = {\ttfamily \textquotesingle{}german1\textquotesingle{}} }\end{DoxyParamCaption})}
+
+
+
+Creates folium map base for the output .html file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em set} & determines the default zoom and position of the visualisation view. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00047_a83112ca7c897953c949d66f3dfeb928c}\label{a00047_a83112ca7c897953c949d66f3dfeb928c}} 
+\index{CVT@{CVT}!fg\_add\_basic@{fg\_add\_basic}}
+\index{fg\_add\_basic@{fg\_add\_basic}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{fg\_add\_basic()}{fg\_add\_basic()}}
+{\footnotesize\ttfamily def C\+V\+T.\+fg\+\_\+add\+\_\+basic (\begin{DoxyParamCaption}\item[{}]{tlist,  }\item[{}]{fg\+\_\+name,  }\item[{}]{wanted\+\_\+color,  }\item[{}]{wanted\+\_\+radius = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+
+
+This func returns basic customizable feature group (fg) for the visualisation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tlist} & list of nodes to be visualized \\
+\hline
+{\em fg\+\_\+name} & name for the created feature group \\
+\hline
+{\em wanted\+\_\+color} & Circle will be printed out for each node, so this argument alters its color \\
+\hline
+{\em wanted\+\_\+radius} & size of the created circle for every node \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00047_ace1784fc5bb4012b5bf35ae421ec9147}\label{a00047_ace1784fc5bb4012b5bf35ae421ec9147}} 
+\index{CVT@{CVT}!fg\_add\_continuous@{fg\_add\_continuous}}
+\index{fg\_add\_continuous@{fg\_add\_continuous}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{fg\_add\_continuous()}{fg\_add\_continuous()}}
+{\footnotesize\ttfamily def C\+V\+T.\+fg\+\_\+add\+\_\+continuous (\begin{DoxyParamCaption}\item[{}]{tlist,  }\item[{}]{fg\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+This func returns feature group (fg) that contains the continuous representation of the tlist data using Polyline. 
+
+It means that the data are visualized in a form of a continuous line. \mbox{\Hypertarget{a00047_a199fd2e9a4cda9cf4b65c124db5a58c2}\label{a00047_a199fd2e9a4cda9cf4b65c124db5a58c2}} 
+\index{CVT@{CVT}!fg\_add\_succession@{fg\_add\_succession}}
+\index{fg\_add\_succession@{fg\_add\_succession}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{fg\_add\_succession()}{fg\_add\_succession()}}
+{\footnotesize\ttfamily def C\+V\+T.\+fg\+\_\+add\+\_\+succession (\begin{DoxyParamCaption}\item[{}]{tlist,  }\item[{}]{fg\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+This func returns feature group (fg) for the visualisation that enhances the progression of a track by enlarging points aggregated as the track progressed. 
+
+\mbox{\Hypertarget{a00047_ad20184989e6bbbee433b2563a3c15036}\label{a00047_ad20184989e6bbbee433b2563a3c15036}} 
+\index{CVT@{CVT}!get\_separate\_coords@{get\_separate\_coords}}
+\index{get\_separate\_coords@{get\_separate\_coords}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{get\_separate\_coords()}{get\_separate\_coords()}}
+{\footnotesize\ttfamily def C\+V\+T.\+get\+\_\+separate\+\_\+coords (\begin{DoxyParamCaption}\item[{}]{tlist }\end{DoxyParamCaption})}
+
+
+
+Returns separate lists for latitudes and longitudes with zipped coordinates as an input. 
+
+\mbox{\Hypertarget{a00047_a89f00c370310d5cff64370a9f7531794}\label{a00047_a89f00c370310d5cff64370a9f7531794}} 
+\index{CVT@{CVT}!normalisation\_test\_vis@{normalisation\_test\_vis}}
+\index{normalisation\_test\_vis@{normalisation\_test\_vis}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{normalisation\_test\_vis()}{normalisation\_test\_vis()}}
+{\footnotesize\ttfamily def C\+V\+T.\+normalisation\+\_\+test\+\_\+vis (\begin{DoxyParamCaption}\item[{}]{real\+\_\+input,  }\item[{}]{normalised\+\_\+crossroads,  }\item[{}]{normalised\+\_\+fine,  }\item[{}]{vis\+\_\+name,  }\item[{}]{nodes\+\_\+map\+\_\+all }\end{DoxyParamCaption})}
+
+
+
+Rather case specific function to perform visualisation. 
+
+This function basically uses previous functions for one particular set of visualisations used for testing of normalisation. It creates mapbase, creates a list to append specific feature groups, closes it, which will generate the output html file. \mbox{\Hypertarget{a00047_a0b64249267e93f3b64d9b65458aae8cd}\label{a00047_a0b64249267e93f3b64d9b65458aae8cd}} 
+\index{CVT@{CVT}!run@{run}}
+\index{run@{run}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily def C\+V\+T.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Testfile to test any of the functions above with prepared data in .p files. 
+
+\mbox{\Hypertarget{a00047_a2af907c548fdc1cf902ccfc838784e00}\label{a00047_a2af907c548fdc1cf902ccfc838784e00}} 
+\index{CVT@{CVT}!visualisation@{visualisation}}
+\index{visualisation@{visualisation}!CVT@{CVT}}
+\doxysubsubsection{\texorpdfstring{visualisation()}{visualisation()}}
+{\footnotesize\ttfamily def C\+V\+T.\+visualisation (\begin{DoxyParamCaption}\item[{}]{visdict }\end{DoxyParamCaption})}
+
+
+
+Rather case specific function to perform visualisation. 
+
+Uses previous functions for one particular set of visualisations defined by the input dictionary visdict and mostly names the feature groups by the dictionary\textquotesingle{}s key names. 

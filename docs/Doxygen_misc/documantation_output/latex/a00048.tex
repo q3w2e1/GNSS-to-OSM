@@ -1,0 +1,75 @@
+\hypertarget{a00048}{}\doxysection{consequtive\+\_\+repetitions Namespace Reference}
+\label{a00048}\index{consequtive\_repetitions@{consequtive\_repetitions}}
+
+
+Used to solve more complex forms of unwanted sequential repetitions.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00048_a624e872399f9c16e12efa8aa840282bc}{consequtive\+\_\+repetitions}} (\mbox{\hyperlink{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}{in\+\_\+list}}, expected\+\_\+range=15)
+\begin{DoxyCompactList}\small\item\em Function solves a problem of repeating the same items in a list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}{in\+\_\+list}}
+\begin{DoxyCompactList}\small\item\em Tryout. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{a00048_acf7d233081150f5b9572c02162f9f5db}{out\+\_\+list}} = \mbox{\hyperlink{a00048_a624e872399f9c16e12efa8aa840282bc}{consequtive\+\_\+repetitions}}(\mbox{\hyperlink{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}{in\+\_\+list}}, 4)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Used to solve more complex forms of unwanted sequential repetitions. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00048_a624e872399f9c16e12efa8aa840282bc}\label{a00048_a624e872399f9c16e12efa8aa840282bc}} 
+\index{consequtive\_repetitions@{consequtive\_repetitions}!consequtive\_repetitions@{consequtive\_repetitions}}
+\index{consequtive\_repetitions@{consequtive\_repetitions}!consequtive\_repetitions@{consequtive\_repetitions}}
+\doxysubsubsection{\texorpdfstring{consequtive\_repetitions()}{consequtive\_repetitions()}}
+{\footnotesize\ttfamily def consequtive\+\_\+repetitions.\+consequtive\+\_\+repetitions (\begin{DoxyParamCaption}\item[{}]{in\+\_\+list,  }\item[{}]{expected\+\_\+range = {\ttfamily 15} }\end{DoxyParamCaption})}
+
+
+
+Function solves a problem of repeating the same items in a list. 
+
+The repetition is understood as more numbers repeating in certain range. As an output, functions returns a list where those repetitive items are excluded. Take a look at \char`\"{}\+Tryout\char`\"{} at the end of this module to understand functionality.
+
+
+\begin{DoxyParams}{Parameters}
+{\em expected\+\_\+range} & determines how big this range, in which we want to ignore any duplicates, is (default 15)\\
+\hline
+\end{DoxyParams}
+{\bfseries{Examples}} 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{in\_list:  [1,1,1,9,9,2,3,4,4]}
+\DoxyCodeLine{out\_list: [1,9,2,3,4]}
+\end{DoxyCode}
+ 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}\label{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}} 
+\index{consequtive\_repetitions@{consequtive\_repetitions}!in\_list@{in\_list}}
+\index{in\_list@{in\_list}!consequtive\_repetitions@{consequtive\_repetitions}}
+\doxysubsubsection{\texorpdfstring{in\_list}{in\_list}}
+{\footnotesize\ttfamily list in\+\_\+list}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 =  [}
+\DoxyCodeLine{2         1,2,3,4,5,6,7,8,9,}
+\DoxyCodeLine{3         8,9,8,9,8,9,8,9,8,9,}
+\DoxyCodeLine{4         10,11,12,13,14,15,16,17,18,19}
+\DoxyCodeLine{5         ]}
+
+\end{DoxyCode}
+
+
+Tryout. 
+
+\mbox{\Hypertarget{a00048_acf7d233081150f5b9572c02162f9f5db}\label{a00048_acf7d233081150f5b9572c02162f9f5db}} 
+\index{consequtive\_repetitions@{consequtive\_repetitions}!out\_list@{out\_list}}
+\index{out\_list@{out\_list}!consequtive\_repetitions@{consequtive\_repetitions}}
+\doxysubsubsection{\texorpdfstring{out\_list}{out\_list}}
+{\footnotesize\ttfamily out\+\_\+list = \mbox{\hyperlink{a00048_a624e872399f9c16e12efa8aa840282bc}{consequtive\+\_\+repetitions}}(\mbox{\hyperlink{a00048_acdd2ee7b2e64576b8483e9b8025fa99f}{in\+\_\+list}}, 4)}
+

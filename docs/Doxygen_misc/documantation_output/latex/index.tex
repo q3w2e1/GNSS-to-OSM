@@ -1,0 +1,32 @@
+\hypertarget{index_autotoc_md0}{}\doxysubsection{Brief description\+:}\label{index_autotoc_md0}
+This project represents a script which takes specific input G\+N\+SS data and transfers them into O\+SM format. This data should be bus routes, therefore it works with roads, excluding any forms of ways a bus is unable to drive on.
+
+After the O\+SM format in the input trajectory is achieved, chosen algorithm will detect specific bus lines -\/ repeating trajectories. These are then saved in convenient form to be further visualized or processed.
+
+{\bfseries{What the script needs as an input\+:}}
+
+
+\begin{DoxyEnumerate}
+\item base map in the O\+SM format
+\begin{DoxyItemize}
+\item sources for download\+: Open\+Street\+Map data -\/ for example via Overpass A\+PI (overpass-\/turbo)
+\end{DoxyItemize}
+\item properly formatted input G\+N\+SS data of a bus driving repeating trajectories
+\end{DoxyEnumerate}\hypertarget{index_autotoc_md1}{}\doxysubsection{Guide for basic run\+:}\label{index_autotoc_md1}
+Manual will be available in a video format to make it clear and simple to understand and follow. \href{https://youtu.be/QuNKxKankuo}{\texttt{ Click to watch video manual.}}
+
+{\bfseries{Naming\+:}}
+
+{\itshape bus line} = represents the actual bus line found either by the developed algorithm or a reference of itself
+
+{\itshape track alternative} = one of two tracks from which the final algorithmic bus line is determined by
+
+{\itshape map vs. input representation} = map always refers to the general broad area; input is bound to the given input G\+N\+SS data
+
+{\itshape node vs. O\+SM representation/format} = node representation is a list of tuples or list of lists, where each of the items are tupled or listen latitude and longitude nodetype is therefore for instance \mbox{[}\mbox{[}lat1, lon1\mbox{]}, \mbox{[}lat2, lon2\mbox{]}...\mbox{]}; the O\+SM representation is always a dictionary, a json/geojson file which can be visualized in J\+O\+SM and contains the O\+SM features and data
+
+{\itshape bus line finding algorithm vs. method for comparing trajectories} = methods for comparing trajectories (gestalt, levenshtein, myratio\+\_\+calc) and bus line finding algorithms (gestalt8, manual\+\_\+trackfinder1, levenshtein2 ... )
+
+{\itshape normalisation} = getting the input G\+N\+SS data enriched by the O\+SM format as well as changing their coordinates according to the most probable coordinates situated nerby belonging to the O\+SM system
+
+{\itshape crossroad representation vs. fine representation} = crossroad representation stands for either nodes or O\+SM format contaning only those coordinates, that are a part of a real crossroad; fine representation stands for either nodes or O\+SM format containing as many as possible nodes used to describe certain road 

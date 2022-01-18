@@ -1,0 +1,3896 @@
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:31:26 2021
+Normalisation time: 2.019667 seconds
+Method used: levenshtein1
+Pattern finding time: 333.579507 seconds
+Tracks found: 1
+Positions: [(85, 1, 379)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.823529 %
+Alternative 2 validity: 98.823529 %
+Execution time: 338.164981 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:37:49 2021
+Normalisation time: 2.326376 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 293.449827 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 299.198354 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:47:34 2021
+Normalisation time: 2.542716 seconds
+Method used: gestalt2
+Pattern finding time: 0.030916 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.474868 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:50:07 2021
+Normalisation time: 2.163023 seconds
+Method used: gestalt2
+Pattern finding time: 0.034881 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:50:13 2021
+Normalisation time: 2.052482 seconds
+Method used: gestalt2
+Pattern finding time: 0.032885 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.322753 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:51:32 2021
+Normalisation time: 2.176647 seconds
+Method used: levenshtein2
+Pattern finding time: 0.346467 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.861958 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:52:37 2021
+Normalisation time: 2.054971 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 0.370018 seconds
+Tracks found: 1
+Positions: [(85, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.631742 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 85 ; length_finish = 101 
+Script execution start: Thu Apr  1 18:55:54 2021
+Normalisation time: 2.095481 seconds
+Method used: gestalt4
+Pattern finding time: 54.383392 seconds
+Tracks found: 1
+Positions: [(101, 0, 101)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 88.541667 %
+Alternative 2 validity: 8.910891 %
+Execution time: 58.918565 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 18:59:46 2021
+Normalisation time: 2.196706 seconds
+Method used: gestalt4
+Pattern finding time: 4.865632 seconds
+Tracks found: 1
+Positions: [(100, 13, 370)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 86.734694 %
+Alternative 2 validity: 86.734694 %
+Execution time: 9.485702 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:00:25 2021
+Normalisation time: 2.025376 seconds
+Method used: gestalt4
+Pattern finding time: 4.988508 seconds
+Tracks found: 1
+Positions: [(100, 13, 370)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 86.734694 %
+Alternative 2 validity: 86.734694 %
+Execution time: 10.171512 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:01:00 2021
+Normalisation time: 2.194149 seconds
+Method used: gestalt4
+Pattern finding time: 15.623214 seconds
+Tracks found: 1
+Positions: [(97, 1, 371)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 89.473684 %
+Execution time: 20.816230 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:23:59 2021
+Normalisation time: 2.138590 seconds
+Method used: gestalt4
+Pattern finding time: 13.699040 seconds
+Tracks found: 1
+Positions: [(97, 1, 371)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 89.473684 %
+Execution time: 18.079524 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:29:01 2021
+Normalisation time: 2.105205 seconds
+Method used: gestalt4
+Pattern finding time: 136.608390 seconds
+Tracks found: 1
+Positions: [(60, 16, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 70.588235 %
+Alternative 2 validity: 70.588235 %
+Execution time: 143.960147 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:32:39 2021
+Normalisation time: 2.168634 seconds
+Method used: gestalt4
+Pattern finding time: 252.254792 seconds
+Tracks found: 1
+Positions: [(87, 1, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 100.000000 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:37:57 2021
+Normalisation time: 2.041515 seconds
+Method used: gestalt4
+Pattern finding time: 258.401125 seconds
+Tracks found: 1
+Positions: [(87, 1, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 100.000000 %
+Execution time: 263.646262 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:45:32 2021
+Normalisation time: 2.023066 seconds
+Method used: gestalt4
+Pattern finding time: 253.967973 seconds
+Tracks found: 1
+Positions: [(87, 1, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 100.000000 %
+Execution time: 259.164280 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:51:10 2021
+Normalisation time: 2.020099 seconds
+Method used: gestalt5
+Pattern finding time: 0.124328 seconds
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:52:46 2021
+Normalisation time: 2.051846 seconds
+Method used: gestalt5
+Pattern finding time: 0.121676 seconds
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:54:25 2021
+Normalisation time: 2.070621 seconds
+Method used: gestalt5
+Pattern finding time: 0.004987 seconds
+Tracks found: 1
+Positions: [(92, 2, 379)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 94.444444 %
+Alternative 2 validity: 94.444444 %
+Execution time: 4.376910 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:57:44 2021
+Normalisation time: 2.219488 seconds
+Method used: gestalt5
+Pattern finding time: 0.008929 seconds
+Tracks found: 1
+Positions: [(77, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 85.882353 %
+Alternative 2 validity: 87.058824 %
+Execution time: 4.492620 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 19:58:00 2021
+Normalisation time: 2.076968 seconds
+Method used: gestalt5
+Pattern finding time: 0.007954 seconds
+Tracks found: 1
+Positions: [(75, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 85.882353 %
+Alternative 2 validity: 87.058824 %
+Execution time: 4.319012 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 20:00:50 2021
+Normalisation time: 2.169082 seconds
+Method used: gestalt5
+Pattern finding time: 0.006981 seconds
+Tracks found: 1
+Positions: [(72, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 84.705882 %
+Alternative 2 validity: 84.705882 %
+Execution time: 4.457699 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:47:09 2021
+Normalisation time: 2.172998 seconds
+Method used: gestalt5
+Pattern finding time: 0.007979 seconds
+Tracks found: 1
+Positions: [(72, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 84.705882 %
+Alternative 2 validity: 84.705882 %
+Execution time: 4.595407 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:47:42 2021
+Normalisation time: 2.215090 seconds
+Method used: gestalt5
+Pattern finding time: 0.007980 seconds
+Tracks found: 1
+Positions: [(72, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 84.705882 %
+Alternative 2 validity: 84.705882 %
+Execution time: 4.749030 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:48:04 2021
+Normalisation time: 2.416394 seconds
+Method used: gestalt5
+Pattern finding time: 0.007979 seconds
+Tracks found: 1
+Positions: [(72, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 84.705882 %
+Alternative 2 validity: 84.705882 %
+Execution time: 5.325820 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:51:10 2021
+Normalisation time: 2.059670 seconds
+Method used: gestalt5
+Pattern finding time: 0.007979 seconds
+Tracks found: 1
+Positions: [(72, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 84.705882 %
+Alternative 2 validity: 84.705882 %
+Execution time: 4.281770 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:51:22 2021
+Normalisation time: 2.100675 seconds
+Method used: gestalt6
+Pattern finding time: 92.636484 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 89.473684 %
+Execution time: 97.604124 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:53:37 2021
+Normalisation time: 2.620661 seconds
+Method used: gestalt
+Pattern finding time: 0.073802 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 5.808384 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:54:46 2021
+Normalisation time: 1.991583 seconds
+Method used: gestalt
+Pattern finding time: 0.061869 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 4.333781 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 21:58:10 2021
+Normalisation time: 2.016075 seconds
+Method used: gestalt
+Pattern finding time: 0.065794 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.499075 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:00:26 2021
+Normalisation time: 2.027786 seconds
+Method used: gestalt
+Pattern finding time: 0.078591 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.485956 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:01:06 2021
+Normalisation time: 2.496346 seconds
+Method used: gestalt
+Pattern finding time: 4.451948 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:03:49 2021
+Normalisation time: 2.127399 seconds
+Method used: gestalt
+Pattern finding time: 0.126743 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.862072 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:04:40 2021
+Normalisation time: 2.115987 seconds
+Method used: gestalt
+Pattern finding time: 0.081757 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.530173 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:05:19 2021
+Normalisation time: 2.064674 seconds
+Method used: gestalt
+Pattern finding time: 0.082727 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.566736 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:05:29 2021
+Normalisation time: 2.213672 seconds
+Method used: gestalt
+Pattern finding time: 0.061810 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.876889 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:07:25 2021
+Normalisation time: 2.007535 seconds
+Method used: gestalt
+Pattern finding time: 0.021893 seconds
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:08:06 2021
+Normalisation time: 2.159865 seconds
+Method used: gestalt
+Pattern finding time: 0.035903 seconds
+Tracks found: 1
+Positions: [(91, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.441267 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:09:10 2021
+Normalisation time: 2.063024 seconds
+Method used: gestalt
+Pattern finding time: 0.024919 seconds
+Tracks found: 1
+Positions: [(88, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 4.453277 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:10:01 2021
+Normalisation time: 2.054004 seconds
+Method used: gestalt
+Pattern finding time: 0.061787 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 4.511533 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:10:29 2021
+Normalisation time: 2.572560 seconds
+Method used: levenshtein
+Pattern finding time: 0.354166 seconds
+Tracks found: 2
+Positions: [(86, 2, 380), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.923927 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:12:01 2021
+Normalisation time: 2.082026 seconds
+Method used: levenshtein
+Pattern finding time: 0.310170 seconds
+Tracks found: 2
+Positions: [(86, 2, 380), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.690539 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  1 22:14:17 2021
+Normalisation time: 2.069582 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.231898 seconds
+Tracks found: 2
+Positions: [(88, 2, 379), (29, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 4.636734 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:46:37 2021
+Normalisation time: 2.350263 seconds
+Method used: gestalt
+Pattern finding time: 0.061940 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.809287 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:47:23 2021
+Normalisation time: 2.140129 seconds
+Method used: gestalt
+Pattern finding time: 0.076229 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Execution time: 4.322816 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:50:11 2021
+Normalisation time: 2.251818 seconds
+Method used: gestalt
+Pattern finding time: 0.102775 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:53:44 2021
+Normalisation time: 2.404361 seconds
+Method used: gestalt
+Pattern finding time: 0.090829 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Execution time: 4.604422 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:55:09 2021
+Normalisation time: 2.237814 seconds
+Method used: levenshtein
+Pattern finding time: 0.306664 seconds
+Tracks found: 2
+Positions: [(86, 2, 380), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:55:20 2021
+Normalisation time: 2.325773 seconds
+Method used: levenshtein
+Pattern finding time: 0.316457 seconds
+Tracks found: 2
+Positions: [(86, 2, 380), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.768662 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 06:57:20 2021
+Normalisation time: 2.484528 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.263682 seconds
+Tracks found: 2
+Positions: [(88, 2, 379), (29, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Execution time: 4.858277 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:30:10 2021
+Normalisation time: 2.028858 seconds
+Method used: gestalt1
+Pattern finding time: 2.247707 seconds
+Tracks found: 1
+Positions: [(28, 16, 394)]
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:30:27 2021
+Normalisation time: 2.084526 seconds
+Method used: gestalt1
+Pattern finding time: 2.345998 seconds
+Tracks found: 1
+Positions: [(28, 16, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.644871 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:31:46 2021
+Normalisation time: 2.257339 seconds
+Method used: gestalt1
+Pattern finding time: 3.112757 seconds
+Tracks found: 1
+Positions: [(28, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 7.309323 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:32:37 2021
+Normalisation time: 2.368520 seconds
+Method used: levenshtein1
+Pattern finding time: 67.080210 seconds
+Tracks found: 1
+Positions: [(28, 16, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 71.686113 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:34:49 2021
+Normalisation time: 2.161918 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 53.861325 seconds
+Tracks found: 1
+Positions: [(28, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 58.126146 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:36:52 2021
+Normalisation time: 2.250195 seconds
+Method used: gestalt2
+Pattern finding time: 0.041314 seconds
+Tracks found: 1
+Positions: [(28, 16, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.327568 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:37:27 2021
+Normalisation time: 2.157195 seconds
+Method used: levenshtein2
+Pattern finding time: 0.093205 seconds
+Tracks found: 1
+Positions: [(28, 16, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.179735 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:37:41 2021
+Normalisation time: 2.597737 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 0.149452 seconds
+Tracks found: 1
+Positions: [(28, 2, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.176258 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 28 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:39:21 2021
+Normalisation time: 2.458350 seconds
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:42:35 2021
+Normalisation time: 2.736089 seconds
+Method used: gestalt4
+Pattern finding time: 6.083528 seconds
+Tracks found: 1
+Positions: [(100, 13, 370)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 11.773299 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:44:54 2021
+Normalisation time: 2.259827 seconds
+Method used: gestalt4
+Pattern finding time: 5.038920 seconds
+Tracks found: 1
+Positions: [(100, 13, 370)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 9.549031 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:47:00 2021
+Normalisation time: 2.269366 seconds
+Method used: gestalt6
+Pattern finding time: 93.151958 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 98.836783 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:50:03 2021
+Normalisation time: 2.164211 seconds
+Method used: gestalt6
+Pattern finding time: 89.740845 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 94.751876 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:53:10 2021
+Normalisation time: 2.168570 seconds
+Method used: gestalt6
+Pattern finding time: 88.940986 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:57:43 2021
+Normalisation time: 2.293069 seconds
+Method used: gestalt6
+Pattern finding time: 87.928927 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 92.420205 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 07:59:45 2021
+Normalisation time: 2.938273 seconds
+Method used: gestalt6
+Pattern finding time: 92.295483 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 89.473684 %
+Execution time: 98.934698 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 08:03:14 2021
+Normalisation time: 2.090971 seconds
+Method used: gestalt6
+Pattern finding time: 93.562163 seconds
+Tracks found: 2
+Positions: [(97, 1, 371), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 89.473684 %
+Execution time: 99.073448 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 08:06:22 2021
+Normalisation time: 2.251782 seconds
+Method used: gestalt6
+Pattern finding time: 197.862925 seconds
+Tracks found: 2
+Positions: [(60, 16, 394), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 70.588235 %
+Alternative 2 validity: 70.588235 %
+Execution time: 203.645933 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 08:12:15 2021
+Normalisation time: 2.200678 seconds
+Method used: gestalt6
+Pattern finding time: 190.395839 seconds
+Tracks found: 2
+Positions: [(60, 16, 394), (28, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 195.592786 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:02:22 2021
+Normalisation time: 2.404140 seconds
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:02:37 2021
+Normalisation time: 2.217897 seconds
+Method used: gestalt7
+Pattern finding time: 0.060086 seconds
+Tracks found: 2
+Positions: [(77, 16, 393), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 93.333333 %
+Alternative 2 validity: 93.333333 %
+Execution time: 4.324662 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:04:50 2021
+Normalisation time: 2.132670 seconds
+Method used: gestalt7
+Pattern finding time: 0.060576 seconds
+Tracks found: 2
+Positions: [(77, 16, 393), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 85.882353 %
+Alternative 2 validity: 87.058824 %
+Execution time: 4.703601 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:07:10 2021
+Normalisation time: 2.261786 seconds
+Method used: gestalt7
+Pattern finding time: 0.056131 seconds
+Tracks found: 2
+Positions: [(75, 16, 393), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 85.882353 %
+Alternative 2 validity: 87.058824 %
+Execution time: 4.751339 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:08:17 2021
+Normalisation time: 2.362602 seconds
+Method used: gestalt7
+Pattern finding time: 0.062576 seconds
+Tracks found: 2
+Positions: [(92, 2, 379), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 94.444444 %
+Alternative 2 validity: 94.444444 %
+Execution time: 5.087164 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:09:44 2021
+Normalisation time: 2.303348 seconds
+Method used: gestalt7
+Pattern finding time: 0.050405 seconds
+Tracks found: 2
+Positions: [(92, 2, 379), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 93.333333 %
+Alternative 2 validity: 93.333333 %
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:09:52 2021
+Normalisation time: 2.279378 seconds
+Method used: gestalt7
+Pattern finding time: 0.051310 seconds
+Tracks found: 2
+Positions: [(92, 2, 379), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 93.333333 %
+Alternative 2 validity: 93.333333 %
+Execution time: 4.291700 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 09:10:35 2021
+Normalisation time: 2.430614 seconds
+Method used: gestalt7
+Pattern finding time: 0.051109 seconds
+Tracks found: 2
+Positions: [(75, 16, 393), (30, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 93.333333 %
+Alternative 2 validity: 93.333333 %
+Execution time: 4.736082 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 10:12:18 2021
+Normalisation time: 3.370373 seconds
+Method used: levenshtein5
+Pattern finding time: 0.163427 seconds
+Tracks found: 2
+Positions: [(91, 2, 379), (31, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 7.077860 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 10:12:56 2021
+Normalisation time: 3.130945 seconds
+Method used: levenshtein5
+Pattern finding time: 0.169909 seconds
+Tracks found: 2
+Positions: [(91, 2, 379), (31, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 90.322581 %
+Alternative 2 validity: 90.322581 %
+Execution time: 6.479707 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 10:16:26 2021
+Normalisation time: 3.132184 seconds
+Method used: levenshtein5
+Pattern finding time: 0.159915 seconds
+Tracks found: 2
+Positions: [(91, 2, 379), (31, 132, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 7.143159 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:43:10 2021
+Normalisation time: 0.606885 seconds
+Method used: gestalt1
+Pattern finding time: 0.015958 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:43:17 2021
+Normalisation time: 0.580445 seconds
+Method used: gestalt1
+Pattern finding time: 0.018951 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.554191 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:45:35 2021
+Normalisation time: 0.623938 seconds
+Method used: gestalt1
+Pattern finding time: 0.022940 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.696450 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:47:14 2021
+Normalisation time: 0.593919 seconds
+Method used: levenshtein1
+Pattern finding time: 0.511144 seconds
+Tracks found: 1
+Positions: [(63, 2, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 98.412698 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.206692 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:48:05 2021
+Normalisation time: 0.609380 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 0.467358 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.062839 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:48:51 2021
+Normalisation time: 0.633812 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 0.423866 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.974192 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:49:47 2021
+Normalisation time: 0.664775 seconds
+Method used: gestalt2
+Pattern finding time: 0.005960 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.739693 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:50:33 2021
+Normalisation time: 0.764955 seconds
+Method used: gestalt2
+Pattern finding time: 0.006982 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.919350 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:51:50 2021
+Normalisation time: 0.637343 seconds
+Method used: levenshtein2
+Pattern finding time: 0.024885 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.705383 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:52:21 2021
+Normalisation time: 0.694156 seconds
+Method used: levenshtein2
+Pattern finding time: 0.025931 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.746716 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:53:15 2021
+Normalisation time: 0.644323 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 0.049873 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.235767 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 12:54:54 2021
+Normalisation time: 0.668913 seconds
+Method used: gestalt4
+Pattern finding time: 0.526590 seconds
+Tracks found: 1
+Positions: [(67, 0, 67)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 96.923077 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.244035 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:13:38 2021
+Normalisation time: 0.725494 seconds
+Method used: gestalt4
+Pattern finding time: 0.830100 seconds
+Tracks found: 1
+Positions: [(71, 0, 71)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 96.923077 %
+Alternative 2 validity: 92.307692 %
+Execution time: 3.842126 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 63 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:15:09 2021
+Normalisation time: 0.660552 seconds
+Method used: gestalt5
+Pattern finding time: 0.000000 seconds
+Tracks found: 1
+Positions: [(63, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 2.914908 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:18:08 2021
+Normalisation time: 0.810995 seconds
+Method used: gestalt4
+Pattern finding time: 0.655849 seconds
+Tracks found: 1
+Positions: [(67, 0, 67)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 96.923077 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.863945 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:20:34 2021
+Normalisation time: 0.714670 seconds
+Method used: gestalt4
+Pattern finding time: 2.579813 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 5.580066 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:21:29 2021
+Normalisation time: 0.678818 seconds
+Method used: gestalt5
+Pattern finding time: 0.000000 seconds
+Tracks found: 1
+Positions: [(32, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 50.793651 %
+Alternative 2 validity: 50.793651 %
+Execution time: 2.806643 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:22:37 2021
+Normalisation time: 0.705417 seconds
+Method used: gestalt5
+Pattern finding time: 0.000997 seconds
+Tracks found: 1
+Positions: [(35, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 55.555556 %
+Alternative 2 validity: 55.555556 %
+Execution time: 2.766318 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:23:22 2021
+Normalisation time: 0.674944 seconds
+Method used: gestalt5
+Pattern finding time: 0.000000 seconds
+Tracks found: 1
+Positions: [(32, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 50.793651 %
+Alternative 2 validity: 50.793651 %
+Execution time: 2.810888 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:24:18 2021
+Normalisation time: 0.770462 seconds
+Method used: gestalt5
+Pattern finding time: 0.000998 seconds
+Tracks found: 1
+Positions: [(32, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 50.793651 %
+Alternative 2 validity: 50.793651 %
+Execution time: 2.967106 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:25:18 2021
+Normalisation time: 0.686044 seconds
+Method used: gestalt6
+Pattern finding time: 0.384849 seconds
+Tracks found: 1
+Positions: [(65, 2, 68)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 98.437500 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.214595 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:27:05 2021
+Normalisation time: 0.684020 seconds
+Method used: gestalt6
+Pattern finding time: 3.536335 seconds
+Tracks found: 1
+Positions: [(31, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 49.206349 %
+Alternative 2 validity: 49.206349 %
+Execution time: 6.373705 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:29:02 2021
+Normalisation time: 0.710187 seconds
+Method used: gestalt
+Pattern finding time: 0.008951 seconds
+Tracks found: 1
+Positions: [(68, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.308009 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:30:13 2021
+Normalisation time: 0.775033 seconds
+Method used: gestalt
+Pattern finding time: 0.004140 seconds
+Tracks found: 1
+Positions: [(65, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.098855 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:32:23 2021
+Normalisation time: 0.773252 seconds
+Method used: levenshtein
+Pattern finding time: 0.055282 seconds
+Tracks found: 2
+Positions: [(31, 3, 66), (32, 36, 99)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 49.206349 %
+Alternative 2 validity: 49.206349 %
+Execution time: 2.981458 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:33:20 2021
+Normalisation time: 0.692549 seconds
+Method used: levenshtein
+Pattern finding time: 0.020786 seconds
+Tracks found: 1
+Positions: [(72, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 95.454545 %
+Execution time: 2.880786 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:33:42 2021
+Normalisation time: 0.812612 seconds
+Method used: levenshtein
+Pattern finding time: 0.039949 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 3.064379 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:34:01 2021
+Normalisation time: 0.880613 seconds
+Method used: levenshtein
+Pattern finding time: 0.059970 seconds
+Tracks found: 2
+Positions: [(31, 3, 66), (32, 36, 99)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 49.206349 %
+Alternative 2 validity: 49.206349 %
+Execution time: 3.672890 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:34:14 2021
+Normalisation time: 0.876727 seconds
+Method used: levenshtein
+Pattern finding time: 0.049945 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 3.599158 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:34:39 2021
+Normalisation time: 0.960384 seconds
+Method used: levenshtein
+Pattern finding time: 0.029984 seconds
+Tracks found: 1
+Positions: [(67, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.982555 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 16:35:01 2021
+Normalisation time: 1.005373 seconds
+Method used: levenshtein
+Pattern finding time: 0.039978 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 3.820188 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:42:53 2021
+Normalisation time: 0.635333 seconds
+Method used: levenshtein
+Pattern finding time: 0.033877 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 2.804299 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:44:09 2021
+Normalisation time: 0.659291 seconds
+Method used: levenshtein5
+Pattern finding time: 0.023935 seconds
+Tracks found: 1
+Positions: [(68, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.729608 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:44:23 2021
+Normalisation time: 0.621993 seconds
+Method used: levenshtein5
+Pattern finding time: 0.024469 seconds
+Tracks found: 1
+Positions: [(68, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.711878 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:45:38 2021
+Normalisation time: 0.637452 seconds
+Method used: levenshtein5
+Pattern finding time: 0.020932 seconds
+Tracks found: 1
+Positions: [(68, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.778790 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:45:48 2021
+Normalisation time: 0.695667 seconds
+Method used: gestalt7
+Pattern finding time: 0.007979 seconds
+Tracks found: 2
+Positions: [(35, 3, 65), (20, 40, 102)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 55.555556 %
+Alternative 2 validity: 55.555556 %
+Execution time: 2.756959 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:46:27 2021
+Normalisation time: 0.609903 seconds
+Method used: gestalt7
+Pattern finding time: 0.009947 seconds
+Tracks found: 1
+Positions: [(69, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.742900 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 17:47:29 2021
+Normalisation time: 0.870214 seconds
+Method used: gestalt7
+Pattern finding time: 0.011968 seconds
+Tracks found: 1
+Positions: [(35, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 55.555556 %
+Alternative 2 validity: 55.555556 %
+Execution time: 3.439992 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:17:55 2021
+Normalisation time: 2.078262 seconds
+Method used: gestalt1
+Pattern finding time: 5.036567 seconds
+Tracks found: 1
+Positions: [(80, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 9.815418 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:20:50 2021
+Normalisation time: 2.066594 seconds
+Method used: gestalt1
+Pattern finding time: 3.846538 seconds
+Tracks found: 1
+Positions: [(80, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 8.448050 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:21:38 2021
+Normalisation time: 1.974432 seconds
+Method used: levenshtein1
+Pattern finding time: 350.887353 seconds
+Tracks found: 1
+Positions: [(80, 235, 315)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 98.750000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 356.082775 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:28:24 2021
+Normalisation time: 1.863756 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 296.589287 seconds
+Tracks found: 1
+Positions: [(80, 42, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 302.703953 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:37:39 2021
+Normalisation time: 1.990889 seconds
+Method used: gestalt2
+Pattern finding time: 0.050830 seconds
+Tracks found: 1
+Positions: [(80, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.423302 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:38:21 2021
+Normalisation time: 1.812403 seconds
+Method used: gestalt2
+Pattern finding time: 0.053865 seconds
+Tracks found: 1
+Positions: [(80, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.404833 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:39:04 2021
+Normalisation time: 2.012278 seconds
+Method used: levenshtein2
+Pattern finding time: 0.550498 seconds
+Tracks found: 1
+Positions: [(80, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.552484 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 80 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:39:50 2021
+Normalisation time: 1.986748 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 1.279618 seconds
+Tracks found: 1
+Positions: [(80, 42, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.309561 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:41:10 2021
+Normalisation time: 2.007953 seconds
+Method used: gestalt4
+Pattern finding time: 10.842558 seconds
+Tracks found: 1
+Positions: [(100, 26, 129)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 15.555673 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:43:05 2021
+Normalisation time: 1.961808 seconds
+Method used: gestalt4
+Pattern finding time: 370.203641 seconds
+Tracks found: 1
+Positions: [(84, 233, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 96.385542 %
+Alternative 2 validity: 100.000000 %
+Execution time: 376.664051 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:50:47 2021
+Normalisation time: 1.999588 seconds
+Method used: gestalt5
+Pattern finding time: 0.007977 seconds
+Tracks found: 1
+Positions: [(32, 42, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.412242 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:51:30 2021
+Normalisation time: 2.567006 seconds
+Method used: gestalt5
+Pattern finding time: 0.021893 seconds
+Tracks found: 1
+Positions: [(46, 84, 167)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.008256 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 19:52:29 2021
+Normalisation time: 2.853214 seconds
+Method used: gestalt6
+Pattern finding time: 241.864482 seconds
+Tracks found: 4
+Positions: [(86, 232, 396), (48, 81, 165), (31, 42, 127), (21, 21, 213)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 95.238095 %
+Alternative 2 validity: 95.238095 %
+Execution time: 248.959188 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:01:01 2021
+Normalisation time: 2.096061 seconds
+Method used: gestalt6
+Pattern finding time: 144.792219 seconds
+Tracks found: 3
+Positions: [(80, 236, 316), (80, 236, 396), (45, 84, 168)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 150.526687 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:04:58 2021
+Normalisation time: 1.878507 seconds
+Method used: gestalt6
+Pattern finding time: 130.922718 seconds
+Tracks found: 2
+Positions: [(85, 232, 393), (70, 59, 143)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 95.238095 %
+Alternative 2 validity: 100.000000 %
+Execution time: 136.454682 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:49:47 2021
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:49:57 2021
+Normalisation time: 1.831802 seconds
+Method used: gestalt
+Pattern finding time: 0.033910 seconds
+Tracks found: 2
+Positions: [(89, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.521161 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:51:37 2021
+Normalisation time: 1.916457 seconds
+Method used: gestalt
+Pattern finding time: 0.045878 seconds
+Tracks found: 2
+Positions: [(87, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.956102 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:52:59 2021
+Normalisation time: 1.799813 seconds
+Method used: levenshtein
+Pattern finding time: 0.524460 seconds
+Tracks found: 3
+Positions: [(32, 42, 127), (53, 77, 160), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.002073 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:53:27 2021
+Normalisation time: 1.870959 seconds
+Method used: levenshtein
+Pattern finding time: 0.115704 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.700133 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:54:50 2021
+Normalisation time: 2.014429 seconds
+Method used: manual_trackfinder
+Pattern finding time: 1.187624 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (49, 81, 164), (80, 237, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.909721 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 20:55:43 2021
+Normalisation time: 2.256130 seconds
+Method used: levenshtein5
+Pattern finding time: 0.089762 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.584273 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:02:53 2021
+Normalisation time: 2.149438 seconds
+Method used: gestalt
+Pattern finding time: 0.039952 seconds
+Tracks found: 2
+Positions: [(89, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.075969 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:03:15 2021
+Normalisation time: 1.920843 seconds
+Method used: gestalt
+Pattern finding time: 0.039978 seconds
+Tracks found: 2
+Positions: [(89, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.915474 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:04:24 2021
+Normalisation time: 2.096467 seconds
+Method used: gestalt
+Pattern finding time: 0.049976 seconds
+Tracks found: 2
+Positions: [(87, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 4.947200 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:09:43 2021
+Normalisation time: 2.077423 seconds
+Method used: levenshtein
+Pattern finding time: 0.520324 seconds
+Tracks found: 3
+Positions: [(32, 42, 127), (53, 77, 160), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.573815 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:10:00 2021
+Normalisation time: 2.060664 seconds
+Method used: levenshtein
+Pattern finding time: 0.520475 seconds
+Tracks found: 3
+Positions: [(32, 42, 127), (53, 77, 160), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.513668 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:11:36 2021
+Normalisation time: 2.222726 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.991064 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (49, 81, 164), (80, 237, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 6.156677 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:13:50 2021
+Normalisation time: 2.191703 seconds
+Method used: levenshtein5
+Pattern finding time: 0.086212 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.108313 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:14:06 2021
+Normalisation time: 2.060745 seconds
+Method used: levenshtein5
+Pattern finding time: 0.079958 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 93.023256 %
+Execution time: 5.113010 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:15:12 2021
+Normalisation time: 2.125457 seconds
+Method used: gestalt7
+Pattern finding time: 0.057964 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (51, 81, 164), (87, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.692046 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:15:23 2021
+Normalisation time: 2.453015 seconds
+Method used: gestalt7
+Pattern finding time: 0.059967 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (51, 81, 164), (87, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 95.238095 %
+Execution time: 6.370198 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:16:39 2021
+Normalisation time: 2.175738 seconds
+Method used: gestalt7
+Pattern finding time: 0.059968 seconds
+Tracks found: 2
+Positions: [(48, 84, 167), (86, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.704417 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:16:50 2021
+Normalisation time: 2.538171 seconds
+Method used: gestalt7
+Pattern finding time: 0.132308 seconds
+Tracks found: 2
+Positions: [(48, 84, 167), (86, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 96.385542 %
+Execution time: 6.800488 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:29:40 2021
+Normalisation time: 2.142233 seconds
+Method used: levenshtein
+Pattern finding time: 0.118175 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.159108 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:30:40 2021
+Normalisation time: 2.039521 seconds
+Method used: levenshtein
+Pattern finding time: 0.109916 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:30:53 2021
+Normalisation time: 2.066064 seconds
+Method used: levenshtein
+Pattern finding time: 0.107896 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.195620 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:32:06 2021
+Normalisation time: 2.078995 seconds
+Method used: levenshtein
+Pattern finding time: 0.119909 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 5.064529 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:33:02 2021
+Normalisation time: 0.770746 seconds
+Method used: levenshtein
+Pattern finding time: 0.019992 seconds
+Tracks found: 1
+Positions: [(72, 3, 66)]
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:33:37 2021
+Normalisation time: 0.623909 seconds
+Method used: levenshtein
+Pattern finding time: 0.020534 seconds
+Tracks found: 1
+Positions: [(72, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 95.454545 %
+Execution time: 2.905437 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:35:58 2021
+Normalisation time: 2.464849 seconds
+Method used: levenshtein
+Pattern finding time: 0.200603 seconds
+Tracks found: 2
+Positions: [(98, 2, 380), (32, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 89.473684 %
+Alternative 2 validity: 91.397849 %
+Execution time: 5.401484 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 21:37:38 2021
+Normalisation time: 2.674388 seconds
+Method used: levenshtein
+Pattern finding time: 0.200222 seconds
+Tracks found: 2
+Positions: [(98, 2, 380), (32, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 87.500000 %
+Alternative 2 validity: 87.500000 %
+Execution time: 5.284065 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:06:57 2021
+Normalisation time: 1.843734 seconds
+Method used: gestalt4
+Pattern finding time: 10.789685 seconds
+Tracks found: 1
+Positions: [(100, 26, 129)]
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:07:22 2021
+Normalisation time: 1.850243 seconds
+Method used: gestalt4
+Pattern finding time: 10.977723 seconds
+Tracks found: 1
+Positions: [(100, 26, 129)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 16.095297 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:08:15 2021
+Normalisation time: 1.787345 seconds
+Method used: gestalt4
+Pattern finding time: 326.879206 seconds
+Tracks found: 1
+Positions: [(84, 233, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 96.385542 %
+Alternative 2 validity: 100.000000 %
+Execution time: 332.032403 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:15:31 2021
+Normalisation time: 1.989892 seconds
+Method used: gestalt5
+Pattern finding time: 0.009924 seconds
+Tracks found: 1
+Positions: [(20, 42, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.368805 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:16:22 2021
+Normalisation time: 1.869128 seconds
+Method used: gestalt5
+Pattern finding time: 0.014960 seconds
+Tracks found: 1
+Positions: [(48, 84, 167)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.439979 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:17:15 2021
+Normalisation time: 1.823792 seconds
+Method used: gestalt6
+Pattern finding time: 64.618631 seconds
+Tracks found: 2
+Positions: [(100, 24, 129), (90, 228, 392)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 70.286761 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:18:49 2021
+Normalisation time: 2.325998 seconds
+Method used: gestalt6
+Pattern finding time: 83.705042 seconds
+Tracks found: 2
+Positions: [(100, 24, 129), (90, 228, 392)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 90.909091 %
+Alternative 2 validity: 95.238095 %
+Execution time: 89.758117 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:22:00 2021
+Normalisation time: 1.806277 seconds
+Method used: gestalt6
+Pattern finding time: 148.715651 seconds
+Tracks found: 2
+Positions: [(85, 232, 393), (70, 59, 143)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 154.080267 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:24:50 2021
+Normalisation time: 2.396154 seconds
+Method used: gestalt6
+Pattern finding time: 172.331982 seconds
+Tracks found: 2
+Positions: [(85, 232, 393), (70, 59, 143)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track1.asc
+Alternative 1 validity: 95.238095 %
+Alternative 2 validity: 100.000000 %
+Execution time: 179.298327 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:30:28 2021
+Normalisation time: 1.943045 seconds
+Method used: gestalt6
+Pattern finding time: 69.514272 seconds
+Tracks found: 2
+Positions: [(100, 24, 129), (90, 228, 392)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 81.632653 %
+Alternative 2 validity: 83.838384 %
+Execution time: 76.660270 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:32:55 2021
+Normalisation time: 1.951375 seconds
+Method used: gestalt6
+Pattern finding time: 175.944886 seconds
+Tracks found: 2
+Positions: [(85, 232, 393), (70, 59, 143)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 81.927711 %
+Alternative 2 validity: 83.132530 %
+Execution time: 181.995637 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:38:56 2021
+Normalisation time: 0.607392 seconds
+Method used: gestalt4
+Pattern finding time: 0.595163 seconds
+Tracks found: 1
+Positions: [(67, 0, 67)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 96.923077 %
+Alternative 2 validity: 98.437500 %
+Execution time: 3.322722 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:40:39 2021
+Normalisation time: 0.700756 seconds
+Method used: gestalt4
+Pattern finding time: 2.651058 seconds
+Tracks found: 1
+Positions: [(55, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 87.301587 %
+Alternative 2 validity: 87.301587 %
+Execution time: 5.410805 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:42:44 2021
+Normalisation time: 0.627831 seconds
+Method used: gestalt5
+Pattern finding time: 0.003990 seconds
+Tracks found: 1
+Positions: [(69, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.701396 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:43:27 2021
+Normalisation time: 0.666253 seconds
+Method used: gestalt5
+Pattern finding time: 0.001995 seconds
+Tracks found: 1
+Positions: [(35, 3, 65)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 55.555556 %
+Alternative 2 validity: 55.555556 %
+Execution time: 2.922295 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:45:05 2021
+Normalisation time: 0.695643 seconds
+Method used: gestalt6
+Pattern finding time: 0.354054 seconds
+Tracks found: 1
+Positions: [(68, 0, 68)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 96.923077 %
+Alternative 2 validity: 96.923077 %
+Execution time: 3.142380 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  2 22:45:54 2021
+Normalisation time: 0.720691 seconds
+Method used: gestalt6
+Pattern finding time: 0.397938 seconds
+Tracks found: 1
+Positions: [(63, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.950206 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:42:24 2021
+Normalisation time: 4.642314 seconds
+Method used: gestalt4
+Pattern finding time: 9.319285 seconds
+Tracks found: 1
+Positions: [(100, 13, 370)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 86.734694 %
+Alternative 2 validity: 86.734694 %
+Execution time: 18.586455 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:43:30 2021
+Normalisation time: 5.863052 seconds
+Method used: gestalt4
+Pattern finding time: 256.116673 seconds
+Tracks found: 1
+Positions: [(87, 1, 380)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 100.000000 %
+Execution time: 264.480013 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:48:52 2021
+Normalisation time: 2.285742 seconds
+Method used: gestalt5
+Pattern finding time: 0.011409 seconds
+Tracks found: 1
+Positions: [(92, 2, 379)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 94.444444 %
+Alternative 2 validity: 94.444444 %
+Execution time: 4.695537 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:49:27 2021
+Normalisation time: 3.106247 seconds
+Method used: gestalt5
+Pattern finding time: 0.018588 seconds
+Tracks found: 1
+Positions: [(75, 16, 393)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 85.882353 %
+Alternative 2 validity: 87.058824 %
+Execution time: 7.554008 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:50:27 2021
+Normalisation time: 2.302232 seconds
+Method used: gestalt6
+Pattern finding time: 72.019203 seconds
+Tracks found: 2
+Positions: [(100, 0, 367), (29, 131, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 88.541667 %
+Alternative 2 validity: 86.734694 %
+Execution time: 76.827848 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:53:22 2021
+Normalisation time: 2.255944 seconds
+Method used: gestalt6
+Pattern finding time: 96.216910 seconds
+Tracks found: 2
+Positions: [(88, 0, 379), (29, 131, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 100.974952 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:56:05 2021
+Normalisation time: 2.094248 seconds
+Method used: gestalt6
+Pattern finding time: 69.801028 seconds
+Tracks found: 2
+Positions: [(100, 0, 367), (29, 131, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Execution time: 74.003177 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 05:58:08 2021
+Normalisation time: 2.202598 seconds
+Method used: gestalt6
+Pattern finding time: 95.714010 seconds
+Tracks found: 2
+Positions: [(88, 0, 379), (29, 131, 207)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track2.asc
+Alternative 1 validity: 96.551724 %
+Alternative 2 validity: 96.551724 %
+Execution time: 100.400279 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:02:02 2021
+Normalisation time: 1.965338 seconds
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:02:26 2021
+Normalisation time: 1.980330 seconds
+Method used: gestalt1
+Pattern finding time: 5.522700 seconds
+Tracks found: 1
+Positions: [(83, 235, 396)]
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:02:47 2021
+Normalisation time: 2.138831 seconds
+Method used: gestalt1
+Pattern finding time: 6.357071 seconds
+Tracks found: 1
+Positions: [(83, 235, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 11.860831 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:03:45 2021
+Normalisation time: 2.776748 seconds
+Method used: gestalt1
+Pattern finding time: 5.101316 seconds
+Tracks found: 1
+Positions: [(83, 234, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 11.414219 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:04:30 2021
+Normalisation time: 2.645182 seconds
+Method used: levenshtein1
+Pattern finding time: 339.006712 seconds
+Tracks found: 1
+Positions: [(83, 232, 392)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:10:48 2021
+Normalisation time: 2.120903 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 282.965086 seconds
+Tracks found: 1
+Positions: [(83, 42, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 97.590361 %
+Alternative 2 validity: 98.795181 %
+Execution time: 288.421156 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:17:28 2021
+Normalisation time: 2.083067 seconds
+Method used: gestalt2
+Pattern finding time: 0.108125 seconds
+Tracks found: 1
+Positions: [(83, 236, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.085656 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:18:06 2021
+Normalisation time: 2.091826 seconds
+Method used: gestalt2
+Pattern finding time: 0.040540 seconds
+Tracks found: 1
+Positions: [(83, 236, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 4.708893 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:18:53 2021
+Normalisation time: 2.009622 seconds
+Method used: levenshtein2
+Pattern finding time: 0.551920 seconds
+Tracks found: 1
+Positions: [(83, 236, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 5.733696 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 83 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:19:22 2021
+Normalisation time: 2.656764 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 0.833725 seconds
+Tracks found: 1
+Positions: [(83, 42, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 97.590361 %
+Alternative 2 validity: 98.795181 %
+Execution time: 6.802672 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:21:05 2021
+Normalisation time: 2.010746 seconds
+Method used: gestalt
+Pattern finding time: 0.030048 seconds
+Tracks found: 2
+Positions: [(89, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 96.511628 %
+Execution time: 4.856161 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:23:07 2021
+Normalisation time: 1.869657 seconds
+Method used: gestalt
+Pattern finding time: 0.035344 seconds
+Tracks found: 2
+Positions: [(89, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 96.511628 %
+Execution time: 4.954479 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:24:41 2021
+Normalisation time: 1.848272 seconds
+Method used: gestalt
+Pattern finding time: 0.040127 seconds
+Tracks found: 2
+Positions: [(87, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.809524 %
+Execution time: 4.563523 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:26:43 2021
+Normalisation time: 2.059855 seconds
+Method used: levenshtein
+Pattern finding time: 0.119337 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 94.318182 %
+Execution time: 5.083031 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:27:09 2021
+Normalisation time: 1.955945 seconds
+Method used: levenshtein
+Pattern finding time: 0.137811 seconds
+Tracks found: 2
+Positions: [(91, 42, 127), (100, 236, 316)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 94.318182 %
+Execution time: 5.114230 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:29:25 2021
+Normalisation time: 1.966772 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.904792 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (49, 81, 164), (80, 237, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 40.963855 %
+Alternative 2 validity: 42.168675 %
+Execution time: 5.582204 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:29:51 2021
+Normalisation time: 1.904107 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.906753 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (49, 81, 164), (80, 237, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 59.036145 %
+Alternative 2 validity: 59.036145 %
+Execution time: 5.641418 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:30:08 2021
+Normalisation time: 1.881234 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.911650 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (49, 81, 164), (80, 237, 396)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.340387 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:31:46 2021
+Normalisation time: 2.085183 seconds
+Method used: levenshtein5
+Pattern finding time: 0.090321 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:31:56 2021
+Normalisation time: 1.983545 seconds
+Method used: levenshtein5
+Pattern finding time: 0.090422 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 62.650602 %
+Alternative 2 validity: 59.036145 %
+Execution time: 5.328337 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:32:12 2021
+Normalisation time: 2.636488 seconds
+Method used: levenshtein5
+Pattern finding time: 0.100226 seconds
+Tracks found: 2
+Positions: [(52, 81, 164), (89, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.438844 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:33:56 2021
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:34:14 2021
+Normalisation time: 1.959614 seconds
+Method used: gestalt7
+Pattern finding time: 0.060586 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (51, 81, 164), (87, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 40.963855 %
+Alternative 2 validity: 42.168675 %
+Execution time: 5.037016 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:34:40 2021
+Normalisation time: 2.566683 seconds
+Method used: gestalt7
+Pattern finding time: 0.063829 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (51, 81, 164), (87, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 61.445783 %
+Alternative 2 validity: 59.036145 %
+Execution time: 6.444352 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:34:52 2021
+Normalisation time: 2.471914 seconds
+Method used: gestalt7
+Pattern finding time: 0.060066 seconds
+Tracks found: 3
+Positions: [(35, 42, 126), (51, 81, 164), (87, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.209967 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:35:55 2021
+Normalisation time: 2.727507 seconds
+Method used: gestalt7
+Pattern finding time: 0.077709 seconds
+Tracks found: 2
+Positions: [(48, 84, 167), (86, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 57.831325 %
+Alternative 2 validity: 55.421687 %
+Execution time: 6.780804 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:36:27 2021
+Normalisation time: 2.586104 seconds
+Method used: gestalt7
+Pattern finding time: 0.082258 seconds
+Tracks found: 2
+Positions: [(48, 84, 167), (86, 236, 395)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 6.268815 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:41:19 2021
+Normalisation time: 0.665875 seconds
+Method used: gestalt1
+Pattern finding time: 0.220080 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:41:27 2021
+Normalisation time: 0.617903 seconds
+Method used: gestalt1
+Pattern finding time: 0.206266 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 2.719196 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:42:10 2021
+Normalisation time: 1.213466 seconds
+Method used: gestalt1
+Pattern finding time: 0.599504 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 4.907480 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:42:55 2021
+Normalisation time: 1.099505 seconds
+Method used: levenshtein1
+Pattern finding time: 14.463665 seconds
+Tracks found: 1
+Positions: [(79, 43, 125)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 93.670886 %
+Alternative 2 validity: 96.202532 %
+Execution time: 18.107927 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:43:56 2021
+Normalisation time: 1.002321 seconds
+Method used: manual_trackfinder1
+Pattern finding time: 13.676217 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 17.113106 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:46:26 2021
+Normalisation time: 0.648666 seconds
+Method used: gestalt2
+Pattern finding time: 0.011040 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 2.466353 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:46:59 2021
+Normalisation time: 0.622437 seconds
+Method used: gestalt2
+Pattern finding time: 0.018430 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 2.868322 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:49:24 2021
+Normalisation time: 0.645344 seconds
+Method used: levenshtein2
+Pattern finding time: 0.090960 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 2.542632 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 79 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:50:01 2021
+Normalisation time: 0.603274 seconds
+Method used: manual_trackfinder2
+Pattern finding time: 0.107217 seconds
+Tracks found: 1
+Positions: [(79, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.202532 %
+Alternative 2 validity: 96.202532 %
+Execution time: 2.557365 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:51:23 2021
+Normalisation time: 0.699619 seconds
+Method used: gestalt4
+Pattern finding time: 7.745261 seconds
+Tracks found: 1
+Positions: [(85, 42, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 96.341463 %
+Alternative 2 validity: 100.000000 %
+Execution time: 10.410667 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:53:15 2021
+Normalisation time: 0.678555 seconds
+Method used: gestalt4
+Pattern finding time: 15.078244 seconds
+Tracks found: 1
+Positions: [(82, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 17.496390 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:54:20 2021
+Normalisation time: 0.658350 seconds
+Method used: gestalt5
+Pattern finding time: 0.013173 seconds
+Tracks found: 1
+Positions: [(90, 45, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.750000 %
+Execution time: 2.563577 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:55:24 2021
+Normalisation time: 0.626414 seconds
+Method used: gestalt5
+Pattern finding time: 0.010024 seconds
+Tracks found: 1
+Positions: [(50, 82, 163)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 60.759494 %
+Alternative 2 validity: 59.493671 %
+Execution time: 2.394062 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:56:49 2021
+Normalisation time: 0.705434 seconds
+Method used: gestalt6
+Pattern finding time: 3.604497 seconds
+Tracks found: 1
+Positions: [(86, 41, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 95.180723 %
+Alternative 2 validity: 98.750000 %
+Execution time: 6.069515 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:57:41 2021
+Normalisation time: 0.706593 seconds
+Method used: gestalt6
+Pattern finding time: 5.987372 seconds
+Tracks found: 1
+Positions: [(83, 44, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 98.750000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 9.163279 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:58:56 2021
+Normalisation time: 0.707743 seconds
+Method used: gestalt
+Pattern finding time: 0.019007 seconds
+Tracks found: 1
+Positions: [(89, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.750000 %
+Execution time: 2.738360 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 06:59:46 2021
+Normalisation time: 0.809928 seconds
+Method used: gestalt
+Pattern finding time: 0.020845 seconds
+Tracks found: 1
+Positions: [(85, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.557320 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:00:27 2021
+Normalisation time: 0.974933 seconds
+Method used: levenshtein
+Pattern finding time: 0.064311 seconds
+Tracks found: 1
+Positions: [(95, 45, 127)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 95.180723 %
+Execution time: 3.703159 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:01:08 2021
+Normalisation time: 0.876382 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.062825 seconds
+Tracks found: 2
+Positions: [(36, 45, 126), (46, 82, 163)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 44.303797 %
+Alternative 2 validity: 44.303797 %
+Execution time: 3.383279 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:01:42 2021
+Normalisation time: 0.886079 seconds
+Method used: manual_trackfinder
+Pattern finding time: 0.067991 seconds
+Tracks found: 2
+Positions: [(36, 45, 126), (46, 82, 163)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 55.696203 %
+Alternative 2 validity: 55.696203 %
+Execution time: 3.589166 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:02:58 2021
+Normalisation time: 0.889151 seconds
+Method used: levenshtein5
+Pattern finding time: 0.056848 seconds
+Tracks found: 1
+Positions: [(72, 63, 144)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 87.341772 %
+Alternative 2 validity: 82.278481 %
+Execution time: 3.392118 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:03:49 2021
+Normalisation time: 0.642660 seconds
+Method used: gestalt7
+Pattern finding time: 0.019946 seconds
+Tracks found: 1
+Positions: [(90, 45, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.750000 %
+Execution time: 3.258674 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:04:34 2021
+Normalisation time: 1.030399 seconds
+Method used: gestalt7
+Pattern finding time: 0.022906 seconds
+Tracks found: 1
+Positions: [(50, 82, 163)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_1_track.asc
+Alternative 1 validity: 60.759494 %
+Alternative 2 validity: 59.493671 %
+Execution time: 3.461075 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:25:48 2021
+Normalisation time: 2.163711 seconds
+Method used: gestalt4
+Pattern finding time: 11.321522 seconds
+Tracks found: 1
+Positions: [(100, 26, 129)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 83.673469 %
+Alternative 2 validity: 83.838384 %
+Execution time: 16.159113 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:27:05 2021
+Normalisation time: 2.033239 seconds
+Method used: gestalt4
+Pattern finding time: 332.403745 seconds
+Tracks found: 1
+Positions: [(84, 233, 394)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 0.000000 %
+Alternative 2 validity: 0.000000 %
+Execution time: 338.040010 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:34:24 2021
+Normalisation time: 1.888193 seconds
+Method used: gestalt5
+Pattern finding time: 0.000000 seconds
+Tracks found: 1
+Positions: [(35, 42, 126)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 40.963855 %
+Alternative 2 validity: 42.168675 %
+Execution time: 4.537773 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:35:41 2021
+Normalisation time: 1.995912 seconds
+Method used: gestalt5
+Pattern finding time: 0.010055 seconds
+Tracks found: 1
+Positions: [(35, 42, 126)]
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:36:20 2021
+Normalisation time: 2.195405 seconds
+Method used: gestalt5
+Pattern finding time: 0.010002 seconds
+Tracks found: 1
+Positions: [(48, 84, 167)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_2_track2.asc
+Alternative 1 validity: 57.831325 %
+Alternative 2 validity: 55.421687 %
+Execution time: 4.843265 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:49:54 2021
+Normalisation time: 0.693128 seconds
+Method used: gestalt
+Pattern finding time: 0.009975 seconds
+Tracks found: 1
+Positions: [(68, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 98.437500 %
+Execution time: 2.799391 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:50:35 2021
+Normalisation time: 0.708513 seconds
+Method used: gestalt
+Pattern finding time: 0.010943 seconds
+Tracks found: 1
+Positions: [(65, 3, 66)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_3_track.asc
+Alternative 1 validity: 100.000000 %
+Alternative 2 validity: 100.000000 %
+Execution time: 3.065301 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:51:46 2021
+Normalisation time: 2.327023 seconds
+Method used: gestalt
+Pattern finding time: 0.078129 seconds
+Tracks found: 2
+Positions: [(91, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 95.505618 %
+Alternative 2 validity: 95.505618 %
+Execution time: 4.967912 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sat Apr  3 07:53:15 2021
+Normalisation time: 2.160345 seconds
+Method used: gestalt
+Pattern finding time: 0.080430 seconds
+Tracks found: 2
+Positions: [(88, 2, 380), (29, 132, 208)]
+Track verified: input_files/IN_custom/verification/Sachsenheim_4_track1.asc
+Alternative 1 validity: 98.837209 %
+Alternative 2 validity: 98.837209 %
+Execution time: 4.675077 seconds 
+
+Input file: input_files/IN_sie/small/debug_checker.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Sat Apr  3 15:21:06 2021
+Normalisation time: 13.370949 seconds
+Method used: gestalt
+Pattern finding time: 0.010002 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 23.202554 seconds 
+
+Input file: input_files/IN_sie/small/testcase_3.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Sat Apr  3 15:22:02 2021
+Normalisation time: 52.409653 seconds
+Method used: gestalt
+Pattern finding time: 0.179327 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 63.632934 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_07.txt
+Input file: input_files/IN_sie/oneday/aBUS3_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 15:24:41 2021
+Normalisation time: 372.966148 seconds
+Method used: gestalt
+Pattern finding time: 17.922752 seconds
+Tracks found: 2
+Positions: [(352, 288, 2200, 0.8920454545454546), (391, 905, 2809, 0.8695652173913043)]
+Execution time: 419.895784 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS4_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 15:34:37 2021
+Normalisation time: 680.874281 seconds
+Method used: gestalt
+Pattern finding time: 48.749066 seconds
+Tracks found: 6
+Positions: [(965, 1295, 6136, 0.8673575129533678), (289, 2632, 2963, 0.8823529411764706), (289, 2632, 3609, 0.8512110726643599), (305, 2632, 4455, 0.8590163934426229), (311, 2938, 3583, 0.8745980707395499), (361, 7102, 9959, 0.9279778393351801)]
+Execution time: 783.366290 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 15:49:28 2021
+Normalisation time: 1322.091399 seconds
+Method used: gestalt
+Pattern finding time: 169.640830 seconds
+Tracks found: 7
+Positions: [(812, 593, 10395, 0.896551724137931), (333, 2271, 10309, 0.8558558558558559), (808, 4570, 5762, 0.8972772277227723), (327, 5379, 6572, 0.8807339449541285), (1173, 6934, 7264, 1.0), (551, 6934, 8452, 0.9509981851179673), (718, 16633, 17687, 0.8857938718662952)]
+Execution time: 1584.705973 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 16:17:47 2021
+Normalisation time: 430.798967 seconds
+Method used: gestalt
+Pattern finding time: 21.528946 seconds
+Tracks found: 2
+Positions: [(352, 288, 2200, 0.8920454545454546), (391, 905, 2809, 0.8695652173913043)]
+Execution time: 490.767252 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS4_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 16:27:29 2021
+Normalisation time: 833.302604 seconds
+Method used: gestalt
+Pattern finding time: 65.127579 seconds
+Tracks found: 6
+Positions: [(965, 1295, 6136, 0.8673575129533678), (289, 2632, 2963, 0.8823529411764706), (289, 2632, 3609, 0.8512110726643599), (305, 2632, 4455, 0.8590163934426229), (311, 2938, 3583, 0.8745980707395499), (361, 7102, 9959, 0.9279778393351801)]
+Execution time: 959.127613 seconds 
+
+Input file: input_files/IN_sie/small/testcase_3.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Sat Apr  3 16:45:16 2021
+Normalisation time: 67.106034 seconds
+Method used: gestalt
+Pattern finding time: 0.300317 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 82.612396 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS2_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 16:47:56 2021
+Normalisation time: 1007.198731 seconds
+Method used: gestalt
+Pattern finding time: 58.873833 seconds
+Tracks found: 4
+Positions: [(843, 494, 4273, 0.8991696322657177), (332, 1700, 10879, 0.9487951807228916), (286, 2301, 11437, 0.8636363636363636), (288, 5419, 10328, 0.8611111111111112)]
+Execution time: 1119.076967 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS5_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 17:18:07 2021
+Normalisation time: 1616.650945 seconds
+Method used: gestalt
+Pattern finding time: 155.496063 seconds
+Tracks found: 5
+Positions: [(911, 88, 2421, 0.9330406147091108), (292, 1000, 3339, 0.9417808219178082), (298, 5774, 13806, 0.8557046979865772), (294, 6242, 8644, 0.8537414965986394), (730, 6903, 7203, 0.9506849315068493)]
+Execution time: 1841.835737 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 17:50:35 2021
+Normalisation time: 656.279890 seconds
+Method used: gestalt
+Pattern finding time: 39.475506 seconds
+Tracks found: 6
+Positions: [(326, 3871, 5047, 0.9478527607361963), (346, 3871, 6227, 0.9479768786127167), (365, 3871, 7425, 0.947945205479452), (404, 3871, 8612, 0.9504950495049505), (948, 4438, 5622, 0.9187763713080169), (994, 5599, 6804, 0.9235412474849095)]
+Execution time: 769.126810 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 18:06:02 2021
+Normalisation time: 967.691049 seconds
+Method used: gestalt
+Pattern finding time: 42.296150 seconds
+Tracks found: 4
+Positions: [(274, 506, 6228, 0.8795620437956204), (785, 853, 2088, 0.913375796178344), (739, 1736, 2921, 0.8917456021650879), (537, 8315, 9206, 0.9013035381750466)]
+Execution time: 1074.753078 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS2_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 18:41:35 2021
+Normalisation time: 993.953279 seconds
+Method used: gestalt
+Pattern finding time: 91.471801 seconds
+Tracks found: 3
+Positions: [(509, 149, 7697, 0.8939096267190569), (323, 659, 4297, 0.9504643962848297), (465, 1342, 10905, 0.9440860215053763)]
+Execution time: 1144.583307 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 19:29:35 2021
+Normalisation time: 732.469592 seconds
+Method used: gestalt
+Pattern finding time: 34.389823 seconds
+Tracks found: 3
+Positions: [(286, 1381, 2733, 0.8566433566433567), (852, 3174, 6361, 0.8849765258215962), (310, 4246, 5564, 0.8612903225806452)]
+Execution time: 820.290846 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS4_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 19:51:58 2021
+Normalisation time: 1033.713827 seconds
+Method used: gestalt
+Pattern finding time: 89.009862 seconds
+Tracks found: 6
+Positions: [(266, 987, 6053, 0.849624060150376), (378, 1548, 6614, 0.8809523809523809), (286, 2278, 2940, 0.8601398601398601), (331, 2590, 2919, 0.8821752265861027), (371, 6993, 9792, 0.921832884097035), (335, 7586, 10412, 0.8686567164179104)]
+Execution time: 1195.659943 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS5_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sat Apr  3 20:33:26 2021
+Normalisation time: 1019.589666 seconds
+Method used: gestalt
+Pattern finding time: 144.592102 seconds
+Tracks found: 8
+Positions: [(392, 267, 4478, 0.9183673469387755), (403, 267, 15009, 0.8957816377171216), (390, 4477, 15008, 0.8948717948717949), (467, 4871, 5806, 0.8822269807280514), (1399, 8996, 9386, 1.0), (1399, 8996, 10796, 1.0), (1061, 8996, 12206, 0.9500471253534402), (1071, 10786, 12196, 0.9505135387488328)]
+Execution time: 1254.567309 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 08:15:35 2021
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 08:21:19 2021
+Normalisation time: 551.728111 seconds
+Method used: gestalt
+Pattern finding time: 19.250696 seconds
+Tracks found: 4
+Positions: [(326, 3871, 5047, 0.9478527607361963), (346, 3871, 6227, 0.9479768786127167), (365, 3871, 7425, 0.947945205479452), (404, 3871, 8612, 0.9504950495049505)]
+Execution time: 614.801042 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS2_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 08:34:06 2021
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 08:43:09 2021
+Normalisation time: 577.583409 seconds
+Input file: input_files/IN_sie/oneday/aBUS2_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 09:33:51 2021
+Normalisation time: 1007.408206 seconds
+Input file: input_files/IN_sie/oneday/aBUS3_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 12:33:09 2021
+Normalisation time: 389.342294 seconds
+Method used: gestalt
+Pattern finding time: 20.000158 seconds
+Tracks found: 2
+Positions: [(357, 308, 2304, 0.8851540616246498), (457, 1023, 3012, 0.862144420131291)]
+Execution time: 439.596296 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 23:46:00 2021
+Normalisation time: 362.775307 seconds
+Method used: gestalt
+Pattern finding time: 26.817990 seconds
+Tracks found: 6
+Positions: [(320, 3584, 4773, 0.946875), (293, 3584, 5974, 0.9488054607508533), (366, 3584, 7200, 0.9480874316939891), (405, 3584, 8404, 0.9506172839506173), (957, 4157, 5361, 0.9174503657262278), (1003, 5338, 6569, 0.9212362911266201)]
+Execution time: 434.461886 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Sun Apr  4 23:59:35 2021
+Normalisation time: 394.575561 seconds
+Method used: gestalt
+Pattern finding time: 34.351513 seconds
+Tracks found: 3
+Positions: [(898, 1681, 2033, 0.9510022271714922), (774, 4395, 4755, 0.9509043927648578), (558, 6118, 9336, 0.8870967741935484)]
+Execution time: 462.367544 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 00:08:31 2021
+Normalisation time: 451.334098 seconds
+Method used: gestalt
+Pattern finding time: 26.425277 seconds
+Tracks found: 4
+Positions: [(260, 403, 2323, 0.8538461538461538), (263, 1379, 2725, 0.8555133079847909), (852, 3161, 6191, 0.8849765258215962), (310, 4233, 5551, 0.8612903225806452)]
+Execution time: 512.562791 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 00:19:05 2021
+Input file: input_files/IN_sie/oneday/aBUS1_01_06.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 00:20:09 2021
+Normalisation time: 389.995845 seconds
+Method used: gestalt
+Pattern finding time: 26.610945 seconds
+Tracks found: 6
+Positions: [(320, 3567, 4756, 0.946875), (293, 3567, 5954, 0.9488054607508533), (366, 3567, 7180, 0.9480874316939891), (405, 3567, 8384, 0.9506172839506173), (957, 4140, 5341, 0.9174503657262278), (1003, 5318, 6549, 0.9212362911266201)]
+Execution time: 457.659416 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 00:31:06 2021
+Normalisation time: 423.279960 seconds
+Method used: gestalt
+Pattern finding time: 38.043396 seconds
+Tracks found: 3
+Positions: [(898, 1659, 2011, 0.9510022271714922), (790, 4348, 4693, 0.950632911392405), (558, 6050, 9218, 0.8906810035842294)]
+Execution time: 496.992755 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 00:44:02 2021
+Normalisation time: 386.022836 seconds
+Method used: gestalt
+Pattern finding time: 24.185507 seconds
+Tracks found: 4
+Positions: [(260, 403, 2323, 0.8538461538461538), (263, 1379, 2725, 0.8555133079847909), (852, 3161, 6191, 0.8849765258215962), (310, 4233, 5551, 0.8612903225806452)]
+Execution time: 443.741062 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 01:01:48 2021
+Normalisation time: 365.959457 seconds
+Method used: gestalt
+Pattern finding time: 33.814499 seconds
+Tracks found: 3
+Positions: [(898, 1681, 2033, 0.9510022271714922), (774, 4395, 4755, 0.9509043927648578), (558, 6118, 9336, 0.8870967741935484)]
+Execution time: 429.666530 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 01:22:25 2021
+Normalisation time: 435.197847 seconds
+Method used: gestalt
+Pattern finding time: 41.374190 seconds
+Tracks found: 3
+Positions: [(898, 1681, 2033, 0.9510022271714922), (774, 4395, 4755, 0.9509043927648578), (558, 6118, 9336, 0.8870967741935484)]
+Execution time: 512.185791 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 01:33:43 2021
+Normalisation time: 435.993722 seconds
+Method used: gestalt
+Pattern finding time: 26.901965 seconds
+Tracks found: 3
+Positions: [(273, 1436, 2884, 0.8571428571428571), (533, 3670, 6762, 0.900562851782364), (313, 4426, 5776, 0.8562300319488818)]
+Execution time: 492.648991 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 01:43:46 2021
+Normalisation time: 441.877472 seconds
+Method used: gestalt
+Pattern finding time: 24.564467 seconds
+Tracks found: 4
+Positions: [(260, 403, 2323, 0.8538461538461538), (263, 1379, 2725, 0.8555133079847909), (852, 3161, 6191, 0.8849765258215962), (310, 4233, 5551, 0.8612903225806452)]
+Execution time: 498.999138 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS3_01_08.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 01:53:18 2021
+Normalisation time: 448.502936 seconds
+Method used: gestalt
+Pattern finding time: 25.247357 seconds
+Tracks found: 4
+Positions: [(260, 403, 2323, 0.8538461538461538), (263, 1379, 2725, 0.8555133079847909), (852, 3161, 6191, 0.8849765258215962), (310, 4233, 5551, 0.8612903225806452)]
+Execution time: 507.808698 seconds 
+
+Input file: input_files/IN_sie/oneday/aBUS1_01_07.txt
+Input parameters: length_start = 1000 ; length_finish = 3600 
+Script execution start: Mon Apr  5 02:14:06 2021
+Normalisation time: 930.590075 seconds
+Method used: gestalt
+Pattern finding time: 109.689930 seconds
+Tracks found: 6
+Positions: [(756, 599, 10167, 0.9074074074074074), (323, 1356, 2822, 0.8575851393188855), (944, 4203, 5398, 0.8961864406779662), (317, 5153, 6343, 0.8958990536277602), (1052, 6704, 7012, 1.0), (713, 6704, 8068, 0.9509116409537167)]
+Input file: input_files/IN_sie/small/debug_checker.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Mon Apr  5 03:31:02 2021
+Normalisation time: 1.987498 seconds
+Method used: gestalt
+Pattern finding time: 0.004919 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 5.471379 seconds 
+
+Input file: input_files/IN_sie/small/testcase_3.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Mon Apr  5 03:31:16 2021
+Normalisation time: 24.101307 seconds
+Method used: gestalt
+Pattern finding time: 0.198439 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 30.545941 seconds 
+
+Input file: input_files/IN_sie/small/debug_checker.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Wed Apr  7 15:31:32 2021
+Normalisation time: 1.366066 seconds
+Method used: gestalt
+Pattern finding time: 0.000664 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.659955 seconds 
+
+Input file: input_files/IN_sie/small/debug_checker.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Thu Apr  8 09:02:00 2021
+Normalisation time: 1.609539 seconds
+Method used: gestalt
+Pattern finding time: 0.011183 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Input file: input_files/IN_sie/small/debug_checker.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Thu Apr  8 09:02:08 2021
+Normalisation time: 1.385496 seconds
+Method used: gestalt
+Pattern finding time: 0.003974 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.572179 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  8 09:23:32 2021
+Normalisation time: 5.081560 seconds
+Method used: gestalt5
+Pattern finding time: 0.089987 seconds
+Tracks found: 45
+Positions: [(13, 2, 377), (12, 3, 378), (11, 4, 379), (10, 5, 380), (9, 6, 381), (8, 7, 382), (32, 56, 431), (20, 57, 432), (19, 58, 433), (18, 59, 434), (17, 60, 435), (16, 61, 436), (15, 62, 437), (14, 63, 438), (13, 64, 439), (12, 65, 440), (11, 66, 441), (10, 67, 442), (9, 68, 443), (8, 69, 444), (10, 78, 453), (9, 79, 454), (8, 80, 455), (30, 132, 207), (29, 133, 208), (28, 134, 209), (27, 135, 210), (26, 136, 211), (25, 137, 212), (24, 138, 213), (23, 139, 214), (22, 140, 215), (20, 141, 216), (19, 142, 217), (18, 143, 218), (17, 144, 219), (16, 145, 220), (15, 146, 221), (14, 147, 222), (13, 148, 223), (12, 149, 224), (11, 150, 225), (10, 151, 226), (9, 152, 227), (8, 153, 228)]
+Execution time: 29.760408 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Thu Apr  8 09:27:03 2021
+Normalisation time: 4.868060 seconds
+Method used: gestalt5
+Pattern finding time: 0.129480 seconds
+Tracks found: 3
+Positions: [(13, 2, 377), (32, 56, 431), (30, 132, 207)]
+Execution time: 8.989756 seconds 
+
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 07:45:18 2021
+Normalisation time: 1.825176 seconds
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 07:45:39 2021
+Normalisation time: 1.549379 seconds
+Method used: gestalt8
+Pattern finding time: 0.000000 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.837177 seconds 
+
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 09:10:08 2021
+Normalisation time: 1.348624 seconds
+Method used: gestalt8
+Pattern finding time: 0.000000 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.652154 seconds 
+
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 09:20:03 2021
+Normalisation time: 1.274559 seconds
+Method used: gestalt8
+Pattern finding time: 0.000000 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.495840 seconds 
+
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 09:20:19 2021
+Normalisation time: 1.361568 seconds
+Method used: gestalt8
+Pattern finding time: 0.009834 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.672401 seconds 
+
+Input file: input_files/IN_sie/debug/debug_no_visualisation.txt
+Input parameters: length_start = 7 ; length_finish = 150 
+Script execution start: Fri Apr  9 09:20:52 2021
+Normalisation time: 1.425330 seconds
+Method used: gestalt8
+Pattern finding time: 0.010004 seconds
+Tracks found: 2
+Positions: [(31, 0, 1, 0.967741935483871), (11, 49, 50, 0.9090909090909091)]
+Execution time: 3.717220 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 16:37:20 2021
+Normalisation time: 34.021263 seconds
+Method used: gestalt8
+Pattern finding time: 0.393391 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 46.724784 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 16:54:56 2021
+Normalisation time: 30.924325 seconds
+Method used: gestalt8
+Pattern finding time: 0.404007 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 43.605144 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 18:31:39 2021
+Normalisation time: 18.594177 seconds
+Method used: gestalt8
+Pattern finding time: 0.156734 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 22.961332 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:32:23 2021
+Normalisation time: 4.272469 seconds
+Method used: gestalt8
+Pattern finding time: 0.060571 seconds
+Tracks found: 10
+Positions: [(12, 42, 127, 1.0), (13, 60, 145, 1.0), (31, 84, 168, 1.0), (13, 116, 200, 1.0), (31, 236, 315, 1.0), (31, 236, 394, 1.0), (31, 268, 347, 1.0), (31, 268, 426, 1.0), (31, 300, 379, 1.0), (15, 300, 458, 1.0)]
+Execution time: 10.387560 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_1_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:33:47 2021
+Normalisation time: 1.922269 seconds
+Method used: gestalt8
+Pattern finding time: 0.010025 seconds
+Tracks found: 4
+Positions: [(12, 45, 127, 1.0), (21, 59, 141, 0.9523809523809523), (38, 82, 164, 1.0), (9, 121, 203, 0.8888888888888888)]
+Execution time: 4.927897 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:34:01 2021
+Normalisation time: 2.216422 seconds
+Method used: gestalt8
+Pattern finding time: 0.009996 seconds
+Tracks found: 4
+Positions: [(19, 3, 66, 1.0), (11, 23, 86, 1.0), (19, 39, 102, 1.0), (8, 60, 123, 1.0)]
+Execution time: 5.158539 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:36:01 2021
+Normalisation time: 2.291237 seconds
+Method used: gestalt8
+Pattern finding time: 0.010484 seconds
+Tracks found: 5
+Positions: [(19, 3, 68, 1.0), (12, 23, 88, 1.0), (11, 40, 105, 1.0), (7, 53, 118, 1.0), (8, 62, 127, 1.0)]
+Execution time: 5.780391 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:36:18 2021
+Normalisation time: 2.325560 seconds
+Method used: gestalt8
+Pattern finding time: 0.010499 seconds
+Tracks found: 5
+Positions: [(19, 3, 68, 1.0), (12, 23, 88, 1.0), (11, 40, 105, 1.0), (7, 53, 118, 1.0), (8, 62, 127, 1.0)]
+Execution time: 5.674038 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:37:54 2021
+Normalisation time: 1.978314 seconds
+Method used: gestalt8
+Pattern finding time: 0.017855 seconds
+Tracks found: 5
+Positions: [(19, 3, 68, 1.0), (12, 23, 88, 1.0), (11, 40, 105, 1.0), (7, 53, 118, 1.0), (8, 62, 127, 1.0)]
+Execution time: 5.466108 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_3_1.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:38:37 2021
+Normalisation time: 2.145695 seconds
+Method used: gestalt8
+Pattern finding time: 0.010000 seconds
+Tracks found: 1
+Positions: [(65, 3, 66, 0.9538461538461539)]
+Execution time: 4.178609 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:39:25 2021
+Normalisation time: 4.647311 seconds
+Method used: gestalt8
+Pattern finding time: 0.060025 seconds
+Tracks found: 2
+Positions: [(88, 2, 378, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.681502 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:40:07 2021
+Normalisation time: 4.032507 seconds
+Method used: gestalt8
+Pattern finding time: 0.050090 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 315, 1.0)]
+Execution time: 7.029882 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:41:12 2021
+Normalisation time: 4.874571 seconds
+Method used: gestalt8
+Pattern finding time: 0.040432 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 315, 1.0)]
+Execution time: 7.852135 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 18:42:13 2021
+Normalisation time: 16.410425 seconds
+Method used: gestalt8
+Pattern finding time: 0.160602 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 20.643129 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 18:53:03 2021
+Normalisation time: 26.079188 seconds
+Method used: gestalt8
+Pattern finding time: 0.276921 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 34.237330 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:57:25 2021
+Normalisation time: 7.851991 seconds
+Method used: gestalt8
+Pattern finding time: 0.075684 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 316, 1.0)]
+Execution time: 14.382947 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 18:58:58 2021
+Normalisation time: 8.079322 seconds
+Method used: gestalt8
+Pattern finding time: 0.072405 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 316, 1.0)]
+Execution time: 16.288810 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 19:10:49 2021
+Normalisation time: 37.971802 seconds
+Method used: gestalt8
+Pattern finding time: 0.409092 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 19:11:56 2021
+Normalisation time: 37.308009 seconds
+Method used: gestalt8
+Pattern finding time: 0.466977 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 50.223733 seconds 
+
+Input file: input_files/IN_sie/debug/debug_visualisation.txt
+Input parameters: length_start = 400 ; length_finish = 700 
+Script execution start: Fri Apr  9 19:18:42 2021
+Normalisation time: 34.394237 seconds
+Method used: gestalt8
+Pattern finding time: 0.394008 seconds
+Tracks found: 1
+Positions: [(177, 0, 204, 0.9548022598870056)]
+Execution time: 46.186107 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 19:24:23 2021
+Normalisation time: 9.539256 seconds
+Method used: gestalt8
+Pattern finding time: 0.106299 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 316, 1.0)]
+Execution time: 17.901924 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_2_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 19:27:01 2021
+Normalisation time: 10.545902 seconds
+Method used: gestalt8
+Pattern finding time: 0.090861 seconds
+Tracks found: 2
+Positions: [(87, 42, 127, 0.9425287356321839), (100, 236, 316, 1.0)]
+Execution time: 19.432957 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 22:52:57 2021
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 22:59:48 2021
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Fri Apr  9 23:00:11 2021
+Normalisation time: 4.632693 seconds
+Method used: gestalt8
+Pattern finding time: 0.069048 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.506634 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:10:01 2021
+Normalisation time: 4.354854 seconds
+Method used: gestalt8
+Pattern finding time: 0.062593 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.254012 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:21:08 2021
+Normalisation time: 4.733765 seconds
+Method used: gestalt8
+Pattern finding time: 0.060429 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.309705 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:21:39 2021
+Normalisation time: 4.795983 seconds
+Method used: gestalt8
+Pattern finding time: 0.062700 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.393800 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:27:11 2021
+Normalisation time: 4.745260 seconds
+Method used: gestalt8
+Pattern finding time: 0.058914 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.405682 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:28:04 2021
+Normalisation time: 4.442414 seconds
+Method used: gestalt8
+Pattern finding time: 0.050158 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 6.978919 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:35:58 2021
+Normalisation time: 4.405652 seconds
+Method used: gestalt8
+Pattern finding time: 0.060613 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 6.990949 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:36:57 2021
+Normalisation time: 4.711790 seconds
+Method used: gestalt8
+Pattern finding time: 0.060558 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.301216 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:39:21 2021
+Normalisation time: 4.358588 seconds
+Method used: gestalt8
+Pattern finding time: 0.055309 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 6.823538 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:39:31 2021
+Normalisation time: 4.596684 seconds
+Method used: gestalt8
+Pattern finding time: 0.060382 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.167429 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:49:14 2021
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 11:54:01 2021
+Normalisation time: 4.392583 seconds
+Method used: gestalt8
+Pattern finding time: 0.059844 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.030268 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 12:18:31 2021
+Normalisation time: 4.881568 seconds
+Method used: gestalt8
+Pattern finding time: 0.070702 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.911203 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Sun Apr 11 12:19:11 2021
+Normalisation time: 4.691039 seconds
+Method used: gestalt8
+Pattern finding time: 0.064544 seconds
+Tracks found: 2
+Positions: [(88, 2, 380, 0.9545454545454546), (29, 132, 208, 0.9655172413793104)]
+Execution time: 7.562427 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:26:35 2022
+Normalisation time: 14.646425 seconds
+Method used: gestalt8
+Pattern finding time: 0.229944 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:27:45 2022
+Normalisation time: 15.429420 seconds
+Method used: gestalt8
+Pattern finding time: 0.209941 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:28:58 2022
+Normalisation time: 14.609468 seconds
+Method used: gestalt8
+Pattern finding time: 0.208979 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:30:34 2022
+Normalisation time: 14.600138 seconds
+Method used: gestalt8
+Pattern finding time: 0.205068 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Execution time: 22.178179 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:42:31 2022
+Normalisation time: 14.325132 seconds
+Method used: gestalt8
+Pattern finding time: 0.223993 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Execution time: 22.139854 seconds 
+
+Input file: input_files/IN_custom/Sachsenheim_4_2.asc
+Input parameters: length_start = 20 ; length_finish = 100 
+Script execution start: Tue Jan 18 00:43:18 2022
+Normalisation time: 14.015946 seconds
+Method used: gestalt8
+Pattern finding time: 0.213479 seconds
+Tracks found: 2
+Positions: [(87, 2, 386, 0.9540229885057471), (29, 136, 213, 0.9655172413793104)]
+Execution time: 21.378210 seconds 
+

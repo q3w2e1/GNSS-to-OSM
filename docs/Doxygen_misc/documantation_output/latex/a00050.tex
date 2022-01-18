@@ -1,0 +1,248 @@
+\hypertarget{a00050}{}\doxysection{patternfinding\+\_\+functions Namespace Reference}
+\label{a00050}\index{patternfinding\_functions@{patternfinding\_functions}}
+
+
+This file provides functions used to find bus line patterns.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00050_a1ffab589face92bdd01b6896ac57ebdc}{progressbar}} (it, prefix=\char`\"{}\char`\"{}, size=60, file=sys.\+stdout)
+\begin{DoxyCompactList}\small\item\em Function works as a progressbar in other functions running cycles. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_aceb67b5694eb8165dfaa65491bbc4160}{myratio\+\_\+calc}} (list1, list2)
+\begin{DoxyCompactList}\small\item\em Alternative to ratio provided by gestalt or levenstein algorithms. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_aff5b79cdab817508ced42463f681369d}{gestalt1}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em Function finds repeating patterns of lengths defined by the range\+\_\+from number O\+N\+LY, by crawling through tuple\+\_\+nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a909f76c59d18750285f17d44490ec857}{levenshtein1}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em Check definition at the gestalt1 function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_afe660a2935845aa8bd25c73560bf762d}{manual\+\_\+trackfinder1}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em Check definition at the gestalt1 function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a8b594f66a4858438ca774d37316b6d2c}{gestalt2}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em Approach difference is in the moment when ratio is calculated. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a5390122a57532fb919993f97953fab64}{levenshtein2}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a66a9db43274294d76c1e1ba4dee5ceb6}{manual\+\_\+trackfinder2}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_ab90dbbdf205bc1e80bcd0ba38b98b6b1}{gestalt4}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a11151b308c9a3a6033ce68e9635d3593}{gestalt5}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a60055e5a710bc0a02dd6127e36355053}{gestalt6}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a113cbaccd98629b2d09011297cc93be5}{gestalt8}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em Function finds repeating patterns of lengths range\+\_\+from to range\+\_\+to by crawling through tuple\+\_\+nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a26d1be3b723c5f6324ad7ab6ff40aef1}{levenshtein3}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_aec6b554a9989d0508ff56682816d9954}{manual\+\_\+trackfinder3}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_af5b82e14a0022a2ab9672c938955b777}{gestalt7}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00050_a8d10834f38b10abf349e9f5972c806a3}{levenshtein5}} (tuple\+\_\+nodes, range\+\_\+from, range\+\_\+to)
+\begin{DoxyCompactList}\small\item\em For basic principle, read gestalt8 description. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file provides functions used to find bus line patterns. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00050_aff5b79cdab817508ced42463f681369d}\label{a00050_aff5b79cdab817508ced42463f681369d}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt1@{gestalt1}}
+\index{gestalt1@{gestalt1}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt1()}{gestalt1()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt1 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+Function finds repeating patterns of lengths defined by the range\+\_\+from number O\+N\+LY, by crawling through tuple\+\_\+nodes. 
+
+It returns the information about the position of tracks in tuple\+\_\+nodes. Similarity is decided by the Sequence\+Matcher ratio or quick\+\_\+ratio.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tuple\+\_\+nodes} & file with repeating patterns in itself. Implemented with its elements as tuples \\
+\hline
+{\em range\+\_\+from} & determines the length of a seeked repeating pattern \\
+\hline
+{\em range\+\_\+to} & I\+G\+N\+O\+R\+ED\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of tuples in which every tuple contains 3 items
+\end{DoxyReturn}
+{\itshape first one} is the length of the found track in nodes
+
+{\itshape second one} is the position of first alternative of the found pair in the particular bus line
+
+{\itshape third one} is the position of second alternative of the found pair in the particular bus line
+
+{\itshape fourth one} is the output of the particular method for comparing two trajectories, in this case it compared these two on those mentioned positions \mbox{\Hypertarget{a00050_a8b594f66a4858438ca774d37316b6d2c}\label{a00050_a8b594f66a4858438ca774d37316b6d2c}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt2@{gestalt2}}
+\index{gestalt2@{gestalt2}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt2()}{gestalt2()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt2 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+Approach difference is in the moment when ratio is calculated. 
+
+Here it initiates by 2 nodes being equal to each other. \mbox{\Hypertarget{a00050_ab90dbbdf205bc1e80bcd0ba38b98b6b1}\label{a00050_ab90dbbdf205bc1e80bcd0ba38b98b6b1}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt4@{gestalt4}}
+\index{gestalt4@{gestalt4}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt4()}{gestalt4()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt4 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_a11151b308c9a3a6033ce68e9635d3593}\label{a00050_a11151b308c9a3a6033ce68e9635d3593}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt5@{gestalt5}}
+\index{gestalt5@{gestalt5}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt5()}{gestalt5()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt5 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_a60055e5a710bc0a02dd6127e36355053}\label{a00050_a60055e5a710bc0a02dd6127e36355053}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt6@{gestalt6}}
+\index{gestalt6@{gestalt6}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt6()}{gestalt6()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt6 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_af5b82e14a0022a2ab9672c938955b777}\label{a00050_af5b82e14a0022a2ab9672c938955b777}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt7@{gestalt7}}
+\index{gestalt7@{gestalt7}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt7()}{gestalt7()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt7 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_a113cbaccd98629b2d09011297cc93be5}\label{a00050_a113cbaccd98629b2d09011297cc93be5}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!gestalt8@{gestalt8}}
+\index{gestalt8@{gestalt8}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{gestalt8()}{gestalt8()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+gestalt8 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+Function finds repeating patterns of lengths range\+\_\+from to range\+\_\+to by crawling through tuple\+\_\+nodes. 
+
+It returns information about the position of tracks in tuple\+\_\+nodes. Similarity is decided by the Sequence\+Matcher ratio or quick\+\_\+ratio.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tuple\+\_\+nodes} & file with repeating patterns in itself. Implemented with its elements as tuples \\
+\hline
+{\em range\+\_\+from} & determines the minimal length of a seeked repeating pattern \\
+\hline
+{\em range\+\_\+to} & determines the maximal length of a seeked repeating pattern\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of tuples in which every tuple contains 4 items
+\end{DoxyReturn}
+{\itshape first one} is the length of the found track in nodes
+
+{\itshape second one} is the position of first alternative of the found pair in the particular bus line
+
+{\itshape third one} is the position of second alternative of the found pair in the particular bus line
+
+{\itshape fourth one} is the output of the particular method for comparing two trajectories, in this case it compared these two on those mentioned positions \mbox{\Hypertarget{a00050_a909f76c59d18750285f17d44490ec857}\label{a00050_a909f76c59d18750285f17d44490ec857}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!levenshtein1@{levenshtein1}}
+\index{levenshtein1@{levenshtein1}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{levenshtein1()}{levenshtein1()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+levenshtein1 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+Check definition at the gestalt1 function. 
+
+Differences are in the method for trajectories comparison since here levenshtein is used and therefore its fuzz.\+ratio \mbox{\Hypertarget{a00050_a5390122a57532fb919993f97953fab64}\label{a00050_a5390122a57532fb919993f97953fab64}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!levenshtein2@{levenshtein2}}
+\index{levenshtein2@{levenshtein2}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{levenshtein2()}{levenshtein2()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+levenshtein2 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_a26d1be3b723c5f6324ad7ab6ff40aef1}\label{a00050_a26d1be3b723c5f6324ad7ab6ff40aef1}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!levenshtein3@{levenshtein3}}
+\index{levenshtein3@{levenshtein3}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{levenshtein3()}{levenshtein3()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+levenshtein3 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_a8d10834f38b10abf349e9f5972c806a3}\label{a00050_a8d10834f38b10abf349e9f5972c806a3}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!levenshtein5@{levenshtein5}}
+\index{levenshtein5@{levenshtein5}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{levenshtein5()}{levenshtein5()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+levenshtein5 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_afe660a2935845aa8bd25c73560bf762d}\label{a00050_afe660a2935845aa8bd25c73560bf762d}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!manual\_trackfinder1@{manual\_trackfinder1}}
+\index{manual\_trackfinder1@{manual\_trackfinder1}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{manual\_trackfinder1()}{manual\_trackfinder1()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+manual\+\_\+trackfinder1 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+Check definition at the gestalt1 function. 
+
+Differences are in the method for trajectories comparison since here myratio\+\_\+calc is used. \mbox{\Hypertarget{a00050_a66a9db43274294d76c1e1ba4dee5ceb6}\label{a00050_a66a9db43274294d76c1e1ba4dee5ceb6}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!manual\_trackfinder2@{manual\_trackfinder2}}
+\index{manual\_trackfinder2@{manual\_trackfinder2}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{manual\_trackfinder2()}{manual\_trackfinder2()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+manual\+\_\+trackfinder2 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_aec6b554a9989d0508ff56682816d9954}\label{a00050_aec6b554a9989d0508ff56682816d9954}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!manual\_trackfinder3@{manual\_trackfinder3}}
+\index{manual\_trackfinder3@{manual\_trackfinder3}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{manual\_trackfinder3()}{manual\_trackfinder3()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+manual\+\_\+trackfinder3 (\begin{DoxyParamCaption}\item[{}]{tuple\+\_\+nodes,  }\item[{}]{range\+\_\+from,  }\item[{}]{range\+\_\+to }\end{DoxyParamCaption})}
+
+
+
+For basic principle, read gestalt8 description. 
+
+Changes and approaches differ tiny amounts on more places in the body of the function. \mbox{\Hypertarget{a00050_aceb67b5694eb8165dfaa65491bbc4160}\label{a00050_aceb67b5694eb8165dfaa65491bbc4160}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!myratio\_calc@{myratio\_calc}}
+\index{myratio\_calc@{myratio\_calc}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{myratio\_calc()}{myratio\_calc()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+myratio\+\_\+calc (\begin{DoxyParamCaption}\item[{}]{list1,  }\item[{}]{list2 }\end{DoxyParamCaption})}
+
+
+
+Alternative to ratio provided by gestalt or levenstein algorithms. 
+
+For each point of list1 it finds the nearest point out of all list2 points. It returns the average distance corresponding to one list1 point. \mbox{\Hypertarget{a00050_a1ffab589face92bdd01b6896ac57ebdc}\label{a00050_a1ffab589face92bdd01b6896ac57ebdc}} 
+\index{patternfinding\_functions@{patternfinding\_functions}!progressbar@{progressbar}}
+\index{progressbar@{progressbar}!patternfinding\_functions@{patternfinding\_functions}}
+\doxysubsubsection{\texorpdfstring{progressbar()}{progressbar()}}
+{\footnotesize\ttfamily def patternfinding\+\_\+functions.\+progressbar (\begin{DoxyParamCaption}\item[{}]{it,  }\item[{}]{prefix = {\ttfamily \char`\"{}\char`\"{}},  }\item[{}]{size = {\ttfamily 60},  }\item[{}]{file = {\ttfamily sys.stdout} }\end{DoxyParamCaption})}
+
+
+
+Function works as a progressbar in other functions running cycles. 
+

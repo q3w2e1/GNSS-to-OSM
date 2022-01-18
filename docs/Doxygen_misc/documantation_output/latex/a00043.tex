@@ -1,0 +1,223 @@
+\hypertarget{a00043}{}\doxysection{xroad\+\_\+functions Namespace Reference}
+\label{a00043}\index{xroad\_functions@{xroad\_functions}}
+
+
+Functions in this file are primarily focused on the solution of input data normalisation (getting input G\+N\+SS data enriched by the O\+SM format).  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00043_aaf2e496eb93301bf0e1868bb13ffcf0d}{feats}} (basedata)
+\item 
+def \mbox{\hyperlink{a00043_ab1fa15f670f4584a95d024ebd033f4e2}{coords}} (basedata\+\_\+features)
+\item 
+def \mbox{\hyperlink{a00043_a8cd499476af8ac8093199182c12aa66a}{del\+\_\+special\+\_\+elem}} (basedata)
+\item 
+def \mbox{\hyperlink{a00043_a8fe233efab2fe37396953b610d8843e5}{del\+\_\+unique\+\_\+nodes}} (basedata, uniq\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em Function takes a list of nodes (uniq\+\_\+nodes) and removes them from the dictionary basedata. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_abe618c1d5ef312d9f560a4dfb19babae}{del\+\_\+special\+\_\+elem2}} (clist)
+\begin{DoxyCompactList}\small\item\em Function deletes those items from a list, which are equal to the defined element. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_a0da6741755a56847f493b95138dbb9c1}{del\+\_\+duplicates}} (alist)
+\begin{DoxyCompactList}\small\item\em Function gets rid or duplicates in the input list not regarding its position (whether it is sequential duplicate). \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_a425167050a54c75b546ea988c0abf8a7}{coords\+\_\+to\+\_\+latlon}} (\mbox{\hyperlink{a00043_ab1fa15f670f4584a95d024ebd033f4e2}{coords}}, empty\+\_\+lat, empty\+\_\+lon)
+\begin{DoxyCompactList}\small\item\em Function takes coords and assigns individual coordinate parts to empty\+\_\+lat and empty\+\_\+lon correspondingly. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_ac0dbe5d7798f5cc1fd46f93394709b31}{cut\+\_\+unnecessary\+\_\+xroads}} (nodes, chosen)
+\begin{DoxyCompactList}\small\item\em Function purpose is to mark with \mbox{[}-\/1, -\/1\mbox{]} specific elements in the nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_a7d6462b11ff7bd6cdd0bf7946c49e682}{filter\+\_\+base}} (basedata, chosen\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em Function purpose is to leave only those nodes in the basemap, which are equal to chosen\+\_\+nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_a4aead3b3c74be0ce28bbe1a313350475}{get\+\_\+unique\+\_\+nodes}} (nodes)
+\begin{DoxyCompactList}\small\item\em Function takes one list of nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_a5b40dc8bce309d77c6c2b8fe9206ccfc}{get\+\_\+fine\+\_\+indata}} (basedata, chosen\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em counterlist keeps the information about how many chosen\+\_\+nodes there is in the particular feature. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00043_afee3b9b1772ff6b27499f0e227dd3c73}{get\+\_\+nodes\+\_\+duplicates}} (\mbox{\hyperlink{a00043_ab1fa15f670f4584a95d024ebd033f4e2}{coords}}, nodes, smxd, nmxd, slcd)
+\begin{DoxyCompactList}\small\item\em By the speed of the input data source, script selects Normal Movement Crossroad Distance (nmxd) or Slow Movement Crossroad Distance (smxd). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Functions in this file are primarily focused on the solution of input data normalisation (getting input G\+N\+SS data enriched by the O\+SM format). 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{a00043_ab1fa15f670f4584a95d024ebd033f4e2}\label{a00043_ab1fa15f670f4584a95d024ebd033f4e2}} 
+\index{xroad\_functions@{xroad\_functions}!coords@{coords}}
+\index{coords@{coords}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{coords()}{coords()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+coords (\begin{DoxyParamCaption}\item[{}]{basedata\+\_\+features }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{a00043_a425167050a54c75b546ea988c0abf8a7}\label{a00043_a425167050a54c75b546ea988c0abf8a7}} 
+\index{xroad\_functions@{xroad\_functions}!coords\_to\_latlon@{coords\_to\_latlon}}
+\index{coords\_to\_latlon@{coords\_to\_latlon}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{coords\_to\_latlon()}{coords\_to\_latlon()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+coords\+\_\+to\+\_\+latlon (\begin{DoxyParamCaption}\item[{}]{coords,  }\item[{}]{empty\+\_\+lat,  }\item[{}]{empty\+\_\+lon }\end{DoxyParamCaption})}
+
+
+
+Function takes coords and assigns individual coordinate parts to empty\+\_\+lat and empty\+\_\+lon correspondingly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coords} & list of coordinate nodes which comprise of latitudes and longitudes (in a form of a list) \\
+\hline
+{\em empty\+\_\+lat} & list of numbers which represent coordinate latitudes \\
+\hline
+{\em empty\+\_\+lon} & list of numbers which represent coordinate longitudes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_ac0dbe5d7798f5cc1fd46f93394709b31}\label{a00043_ac0dbe5d7798f5cc1fd46f93394709b31}} 
+\index{xroad\_functions@{xroad\_functions}!cut\_unnecessary\_xroads@{cut\_unnecessary\_xroads}}
+\index{cut\_unnecessary\_xroads@{cut\_unnecessary\_xroads}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{cut\_unnecessary\_xroads()}{cut\_unnecessary\_xroads()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+cut\+\_\+unnecessary\+\_\+xroads (\begin{DoxyParamCaption}\item[{}]{nodes,  }\item[{}]{chosen }\end{DoxyParamCaption})}
+
+
+
+Function purpose is to mark with \mbox{[}-\/1, -\/1\mbox{]} specific elements in the nodes. 
+
+If an element from nodes is not equal to any chosen of the chosen nodes, them it is marked by \mbox{[}-\/1, -\/1\mbox{]} which indicates that it will be deleted. As soon as it finds the equality, the process continues from the other side of the nodes list and the former process is immediately stopped.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nodes} & list of nodes in which we want to mark specific ones \\
+\hline
+{\em chosen} & list of nodes which will determine which items will be marked in the nodes list (logic is explained above) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_a0da6741755a56847f493b95138dbb9c1}\label{a00043_a0da6741755a56847f493b95138dbb9c1}} 
+\index{xroad\_functions@{xroad\_functions}!del\_duplicates@{del\_duplicates}}
+\index{del\_duplicates@{del\_duplicates}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{del\_duplicates()}{del\_duplicates()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+del\+\_\+duplicates (\begin{DoxyParamCaption}\item[{}]{alist }\end{DoxyParamCaption})}
+
+
+
+Function gets rid or duplicates in the input list not regarding its position (whether it is sequential duplicate). 
+
+\mbox{\Hypertarget{a00043_a8cd499476af8ac8093199182c12aa66a}\label{a00043_a8cd499476af8ac8093199182c12aa66a}} 
+\index{xroad\_functions@{xroad\_functions}!del\_special\_elem@{del\_special\_elem}}
+\index{del\_special\_elem@{del\_special\_elem}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{del\_special\_elem()}{del\_special\_elem()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+del\+\_\+special\+\_\+elem (\begin{DoxyParamCaption}\item[{}]{basedata }\end{DoxyParamCaption})}
+
+\begin{DoxyParagraph}{Description}
+
+\end{DoxyParagraph}
+Function removes all defined (special) elements in the nested list. Argument has to be a dictionary and the nested list is under features -\/$>$ geometry -\/$>$ coordinates. Function changes the given memory section defined by the parameter =$>$ no return.
+
+
+\begin{DoxyParams}{Parameters}
+{\em basedata} & type dictionary and has to satisfy used case-\/specific geojson format O\+SM \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_abe618c1d5ef312d9f560a4dfb19babae}\label{a00043_abe618c1d5ef312d9f560a4dfb19babae}} 
+\index{xroad\_functions@{xroad\_functions}!del\_special\_elem2@{del\_special\_elem2}}
+\index{del\_special\_elem2@{del\_special\_elem2}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{del\_special\_elem2()}{del\_special\_elem2()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+del\+\_\+special\+\_\+elem2 (\begin{DoxyParamCaption}\item[{}]{clist }\end{DoxyParamCaption})}
+
+
+
+Function deletes those items from a list, which are equal to the defined element. 
+
+In this case\+: \mbox{[}-\/1,-\/1\mbox{]} \mbox{\Hypertarget{a00043_a8fe233efab2fe37396953b610d8843e5}\label{a00043_a8fe233efab2fe37396953b610d8843e5}} 
+\index{xroad\_functions@{xroad\_functions}!del\_unique\_nodes@{del\_unique\_nodes}}
+\index{del\_unique\_nodes@{del\_unique\_nodes}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{del\_unique\_nodes()}{del\_unique\_nodes()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+del\+\_\+unique\+\_\+nodes (\begin{DoxyParamCaption}\item[{}]{basedata,  }\item[{}]{uniq\+\_\+nodes }\end{DoxyParamCaption})}
+
+
+
+Function takes a list of nodes (uniq\+\_\+nodes) and removes them from the dictionary basedata. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em basedata} & type dictionary and has to satisfy used case-\/specific geojson format O\+SM \\
+\hline
+{\em uniq\+\_\+nodes} & list of nodes to remove from basedata \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_aaf2e496eb93301bf0e1868bb13ffcf0d}\label{a00043_aaf2e496eb93301bf0e1868bb13ffcf0d}} 
+\index{xroad\_functions@{xroad\_functions}!feats@{feats}}
+\index{feats@{feats}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{feats()}{feats()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+feats (\begin{DoxyParamCaption}\item[{}]{basedata }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{a00043_a7d6462b11ff7bd6cdd0bf7946c49e682}\label{a00043_a7d6462b11ff7bd6cdd0bf7946c49e682}} 
+\index{xroad\_functions@{xroad\_functions}!filter\_base@{filter\_base}}
+\index{filter\_base@{filter\_base}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{filter\_base()}{filter\_base()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+filter\+\_\+base (\begin{DoxyParamCaption}\item[{}]{basedata,  }\item[{}]{chosen\+\_\+nodes }\end{DoxyParamCaption})}
+
+
+
+Function purpose is to leave only those nodes in the basemap, which are equal to chosen\+\_\+nodes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em basedata} & type dictionary and has to satisfy used case-\/specific geojson format \\
+\hline
+{\em chosen\+\_\+nodes} & list of nodes which we want in the basemap and all other we want deleted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_a5b40dc8bce309d77c6c2b8fe9206ccfc}\label{a00043_a5b40dc8bce309d77c6c2b8fe9206ccfc}} 
+\index{xroad\_functions@{xroad\_functions}!get\_fine\_indata@{get\_fine\_indata}}
+\index{get\_fine\_indata@{get\_fine\_indata}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_fine\_indata()}{get\_fine\_indata()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+get\+\_\+fine\+\_\+indata (\begin{DoxyParamCaption}\item[{}]{basedata,  }\item[{}]{chosen\+\_\+nodes }\end{DoxyParamCaption})}
+
+
+
+counterlist keeps the information about how many chosen\+\_\+nodes there is in the particular feature. 
+
+If there is less than 2, they will be marked and deleted. If 2 and more, (more than 1), there will be special filter applied described in the \mbox{\hyperlink{a00008}{xroad\+\_\+functions.\+py}}\+: cut\+\_\+unnecessary\+\_\+xroads which further reduce the nodes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em basedata} & requires the fine representation -\/ not Xroad -\/ it would not make sense \\
+\hline
+{\em chosen\+\_\+nodes} & list of border nodes. At the end we want to keep all the basedata nodes in between chosen\+\_\+nodes. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_afee3b9b1772ff6b27499f0e227dd3c73}\label{a00043_afee3b9b1772ff6b27499f0e227dd3c73}} 
+\index{xroad\_functions@{xroad\_functions}!get\_nodes\_duplicates@{get\_nodes\_duplicates}}
+\index{get\_nodes\_duplicates@{get\_nodes\_duplicates}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_nodes\_duplicates()}{get\_nodes\_duplicates()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+get\+\_\+nodes\+\_\+duplicates (\begin{DoxyParamCaption}\item[{}]{coords,  }\item[{}]{nodes,  }\item[{}]{smxd,  }\item[{}]{nmxd,  }\item[{}]{slcd }\end{DoxyParamCaption})}
+
+
+
+By the speed of the input data source, script selects Normal Movement Crossroad Distance (nmxd) or Slow Movement Crossroad Distance (smxd). 
+
+Speed of the input data source is determined by the current distance between the newest node and the previous one. Remember these variables. Then function calculates the distance between each input coordinate and xroadnode. For each distance defined as such\+: if the distance is less than sooner defined Slow Movement Crossroad Distance or Normal Movement Crossroad Distance, then append this xroadnode to nodes\+\_\+duplicates. It will have duplicates as expected.
+
+
+\begin{DoxyParams}{Parameters}
+{\em coords} & list of input data nodes 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{             [[lon1,lat1],[lon2,lat2],...]}
+\DoxyCodeLine{@param     nodes   nodes of \textcolor{stringliteral}{"{}basemap"{}}}
+\DoxyCodeLine{@param     smxd    Slow Movement Crossroad Distance}
+\end{DoxyCode}
+ testing the distance between xroad node and a coordinate while the distance between current and the previous coordinate is smaller than the \char`\"{}last\+Coordinate\+Distance\char`\"{} \\
+\hline
+{\em nmxd} & Normal Movement Crossroad Distance testing the distance between xroad node and a coordinate while the distance between current and the previous coordinate is bigger than the \char`\"{}\+Last Coordinate Distance\char`\"{} \\
+\hline
+{\em slcd} & Set Last Coordinate Distance testing the distance between current and the last coordinate node from input file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{a00043_a4aead3b3c74be0ce28bbe1a313350475}\label{a00043_a4aead3b3c74be0ce28bbe1a313350475}} 
+\index{xroad\_functions@{xroad\_functions}!get\_unique\_nodes@{get\_unique\_nodes}}
+\index{get\_unique\_nodes@{get\_unique\_nodes}!xroad\_functions@{xroad\_functions}}
+\doxysubsubsection{\texorpdfstring{get\_unique\_nodes()}{get\_unique\_nodes()}}
+{\footnotesize\ttfamily def xroad\+\_\+functions.\+get\+\_\+unique\+\_\+nodes (\begin{DoxyParamCaption}\item[{}]{nodes }\end{DoxyParamCaption})}
+
+
+
+Function takes one list of nodes. 
+
+While it goes through itself, it is not changing itself. Just checks for uniqueness of elements. Into separate list only appends those, that are unique.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nodes} & list of nodes to get unique nodes from \\
+\hline
+\end{DoxyParams}

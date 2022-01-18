@@ -1,0 +1,34 @@
+\hypertarget{a00011}{}\doxysection{C\+:/\+Users/\+Jaroslav Pizur/\+Desktop/osm\+Proj\+Loc\+R/osm-\/\+Projekt/osm\+Projekt/deps/functions/complex\+\_\+visualisation\+\_\+testbed/\+C\+VT.py File Reference}
+\label{a00011}\index{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/complex\_visualisation\_testbed/CVT.py@{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/complex\_visualisation\_testbed/CVT.py}}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{a00047}{C\+VT}}
+\begin{DoxyCompactList}\small\item\em Functions for visualisation handling. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00047_aebab228cbbac60a40ed785a68feadc6f}{create\+\_\+mapbase}} (set=\textquotesingle{}german1\textquotesingle{})
+\begin{DoxyCompactList}\small\item\em Creates folium map base for the output .html file. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ad20184989e6bbbee433b2563a3c15036}{get\+\_\+separate\+\_\+coords}} (tlist)
+\begin{DoxyCompactList}\small\item\em Returns separate lists for latitudes and longitudes with zipped coordinates as an input. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a659e86756634406464d342eff254b902}{add\+\_\+fg\+\_\+direction}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns a feature group (fg) that provides visualisation of tlist while highlighting the direction. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ad7a589090d27261a7505378c60885c70}{add\+\_\+fg\+\_\+\+O\+SM}} (tlist, geojson\+\_\+file, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a48808ff1f3184bc79fad2b5c45282d38}{add\+\_\+fg\+\_\+\+O\+S\+M\+\_\+clean}} (geojson\+\_\+file, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the O\+SM format of the data ready to be visualized under given name. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_ace1784fc5bb4012b5bf35ae421ec9147}{fg\+\_\+add\+\_\+continuous}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) that contains the continuous representation of the tlist data using Polyline. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a83112ca7c897953c949d66f3dfeb928c}{fg\+\_\+add\+\_\+basic}} (tlist, fg\+\_\+name, wanted\+\_\+color, wanted\+\_\+radius=1)
+\begin{DoxyCompactList}\small\item\em This func returns basic customizable feature group (fg) for the visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a199fd2e9a4cda9cf4b65c124db5a58c2}{fg\+\_\+add\+\_\+succession}} (tlist, fg\+\_\+name)
+\begin{DoxyCompactList}\small\item\em This func returns feature group (fg) for the visualisation that enhances the progression of a track by enlarging points aggregated as the track progressed. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a7d2156c04c13100d9e536dfe77e30392}{close\+\_\+mapbase}} (name, fmapbase, fglist)
+\begin{DoxyCompactList}\small\item\em All the feature groups are now added to the created fmapbase. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a89f00c370310d5cff64370a9f7531794}{normalisation\+\_\+test\+\_\+vis}} (real\+\_\+input, normalised\+\_\+crossroads, normalised\+\_\+fine, vis\+\_\+name, nodes\+\_\+map\+\_\+all)
+\begin{DoxyCompactList}\small\item\em Rather case specific function to perform visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a2af907c548fdc1cf902ccfc838784e00}{visualisation}} (visdict)
+\begin{DoxyCompactList}\small\item\em Rather case specific function to perform visualisation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00047_a0b64249267e93f3b64d9b65458aae8cd}{run}} ()
+\begin{DoxyCompactList}\small\item\em Testfile to test any of the functions above with prepared data in .p files. \end{DoxyCompactList}\end{DoxyCompactItemize}

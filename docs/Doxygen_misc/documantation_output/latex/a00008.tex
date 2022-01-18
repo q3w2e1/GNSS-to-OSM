@@ -1,0 +1,34 @@
+\hypertarget{a00008}{}\doxysection{C\+:/\+Users/\+Jaroslav Pizur/\+Desktop/osm\+Proj\+Loc\+R/osm-\/\+Projekt/osm\+Projekt/deps/functions/basic\+\_\+crossroad/xroad\+\_\+functions.py File Reference}
+\label{a00008}\index{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/basic\_crossroad/xroad\_functions.py@{C:/Users/Jaroslav Pizur/Desktop/osmProjLocR/osm-\/Projekt/osmProjekt/deps/functions/basic\_crossroad/xroad\_functions.py}}
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{a00046}{xroad\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em Functions in this file are primarily focused on the solution of input data normalisation (getting input G\+N\+SS data enriched by the O\+SM format as well as changing their coordinates according to the most probable coordinates situated nerby belonging to the O\+SM system). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{a00046_aaf2e496eb93301bf0e1868bb13ffcf0d}{feats}} (basedata)
+\begin{DoxyCompactList}\small\item\em Features getting simplification. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_ab1fa15f670f4584a95d024ebd033f4e2}{coords}} (basedata\+\_\+features)
+\begin{DoxyCompactList}\small\item\em Coordinates getting simplification. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a8cd499476af8ac8093199182c12aa66a}{del\+\_\+special\+\_\+elem}} (basedata)
+\begin{DoxyCompactList}\small\item\em Function removes all defined (special) elements in the nested list. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a8fe233efab2fe37396953b610d8843e5}{del\+\_\+unique\+\_\+nodes}} (basedata, uniq\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em Function takes a list of nodes (uniq\+\_\+nodes) and removes them from the dictionary basedata. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_abe618c1d5ef312d9f560a4dfb19babae}{del\+\_\+special\+\_\+elem2}} (clist)
+\begin{DoxyCompactList}\small\item\em Function deletes those items from a list, which are equal to the defined element. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a0da6741755a56847f493b95138dbb9c1}{del\+\_\+duplicates}} (alist)
+\begin{DoxyCompactList}\small\item\em Function gets rid of duplicates in the input list not regarding its position (whether it is sequential duplicate). \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a425167050a54c75b546ea988c0abf8a7}{coords\+\_\+to\+\_\+latlon}} (coords, empty\+\_\+lat, empty\+\_\+lon)
+\begin{DoxyCompactList}\small\item\em Function takes coords and assigns individual coordinate parts to empty\+\_\+lat and empty\+\_\+lon correspondingly. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_ac0dbe5d7798f5cc1fd46f93394709b31}{cut\+\_\+unnecessary\+\_\+xroads}} (nodes, chosen)
+\begin{DoxyCompactList}\small\item\em Function purpose is to mark with \mbox{[}-\/1, -\/1\mbox{]} specific elements in the nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a7d6462b11ff7bd6cdd0bf7946c49e682}{filter\+\_\+base}} (basedata, chosen\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em Function purpose is to leave only those nodes in the basemap, which are equal to chosen\+\_\+nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a4aead3b3c74be0ce28bbe1a313350475}{get\+\_\+unique\+\_\+nodes}} (nodes)
+\begin{DoxyCompactList}\small\item\em Function takes one list of nodes. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_a5b40dc8bce309d77c6c2b8fe9206ccfc}{get\+\_\+fine\+\_\+indata}} (basedata, chosen\+\_\+nodes)
+\begin{DoxyCompactList}\small\item\em counterlist keeps the information about how many chosen\+\_\+nodes there is in the particular feature. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{a00046_afee3b9b1772ff6b27499f0e227dd3c73}{get\+\_\+nodes\+\_\+duplicates}} (coords, nodes, smxd, nmxd, slcd)
+\begin{DoxyCompactList}\small\item\em By the speed of the input data source, script selects Normal Movement Crossroad Distance (nmxd) or Slow Movement Crossroad Distance (smxd). \end{DoxyCompactList}\end{DoxyCompactItemize}
